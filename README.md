@@ -10,7 +10,7 @@ This repository contains source code and [article](/article/report.pdf) for a gr
 
 Team members:
 
--   `MEMBER FULL NAME`, `STUDENT ID`, `STUDENT E-MAIL`
+-   Jan Bajt, 63170046, jb3976@student.uni-lj.si
 -   Anže Habjan, 63170110, ah0233@student.uni-lj.si
 -   Tadej Stanonik, 63170268, ts6103@student.uni-lj.si
 
