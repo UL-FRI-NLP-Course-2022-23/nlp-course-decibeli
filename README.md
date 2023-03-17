@@ -1,6 +1,6 @@
 # Natural language processing course 2022/23: `Literacy situation models knowledge base creation`
 
-This repository contains source code and [article](/article/report.pdf) for a group project created as part of Natural Language Processing course at the Faculty of Computer and Information Science at the University of Ljubljana.
+This repository contains source code and [article](/article/Literacy_situation_models_knowledge_base_creation.pdf) for a group project created as part of Natural Language Processing course at the Faculty of Computer and Information Science at the University of Ljubljana.
 
 ## Repository strcture
 
