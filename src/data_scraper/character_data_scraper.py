@@ -1,9 +1,11 @@
 import argparse
 import csv
 import json
+import os
 import pickle
 
 import tqdm
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -11,14 +13,8 @@ import undetected_chromedriver as uc
 
 
 def read_character_list(input_file):
-    character_data = {}
-    with open(input_file, 'r') as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=';')
-        for row in csv_reader:
-            name, link = row
-
-            character_data[name] = {}
-            character_data[name]['link'] = link
+    with open(input_file, 'r') as json_file:
+        character_data = json.load(json_file)
 
     return character_data
 
@@ -68,9 +64,19 @@ class Scraper:
     def scrape_character_list(self, input_file, output_file):
         character_data = read_character_list(input_file)
 
+        # This was added because in previous version we didn't scroll on each page and so we didn't get the whole data
+        # We now have to repair those character data
+        new_character_data = {}
+        go = False
+        for character_name in character_data.keys():
+            if "" in character_data[character_name]:
+                del character_data[character_name][""]
+                new_character_data[character_name] = character_data[character_name].copy()
+
         error_characters = {}
 
-        progress_bar = tqdm.tqdm(character_data.keys(), bar_format='{desc:<25.25}{percentage:3.0f}%|{bar:10}{r_bar}')
+        progress_bar = tqdm.tqdm(new_character_data.keys(),
+                                 bar_format='{desc:<25.25}{percentage:3.0f}%|{bar:10}{r_bar}')
 
         for name in progress_bar:
             progress_bar.set_description(f"{name}")
@@ -78,6 +84,12 @@ class Scraper:
 
             try:
                 self.driver.get(link)
+                try:
+                    self.resolve_cookies()
+                except Exception as e:
+                    tqdm.tqdm.write(f'{name} caused COOKIE an error!')
+                    self.accept_cookies = True
+                    self.resolve_cookies()
 
                 # Get info box
                 info_box = self.driver.find_element(By.CLASS_NAME, 'infobox')
@@ -88,14 +100,53 @@ class Scraper:
 
                 # Loop through rows and save the key-value pairs to data collection
                 for row in rows:
-                    header = row.find_element(By.XPATH, 'th')
-                    value = row.find_element(By.XPATH, 'td')
+                    # Find header element of current row in infobox table
+                    header_element = row.find_element(By.XPATH, 'th')
 
-                    character_data[name][header.text] = value.text.split('\n')
+                    # We need to scroll to the header element
+                    actions = ActionChains(self.driver)
+                    actions.move_to_element(header_element).perform()
+
+                    try:
+                        data_element = row.find_elements(By.XPATH, './td//li')
+                        if len(data_element) > 0:
+                            links = []
+                            values = []
+                            for element in data_element:
+                                element_link = element.find_elements(By.XPATH, './/a')
+                                if len(element_link) == 0:
+                                    element_link = ''
+                                else:
+                                    element_link = element_link[0].get_attribute('href')
+                                element_value = element.text
+
+                                values.append(element_value)
+                                links.append(element_link)
+
+                            character_data[name][header_element.text] = {
+                                'values': values,
+                                'links': links
+                            }
+                        else:
+                            data_element = row.find_element(By.XPATH, './td')
+                            element_link = data_element.find_elements(By.XPATH, './/a')
+                            if len(element_link) == 0:
+                                element_link = ''
+                            else:
+                                element_link = element_link[0].get_attribute('href')
+                            element_value = data_element.text
+                            character_data[name][header_element.text] = {
+                                'value': element_value,
+                                'link': element_link
+                            }
+
+                    except Exception as e:
+                        tqdm.tqdm.write(f'{name} caused ELEMENT NOT FOUND an error!')
 
             except Exception as e:
                 error_characters[name] = e
-                tqdm.tqdm.write(f'{name} caused an error!')
+                tqdm.tqdm.write(f'{name} caused an error! {e}')
+                break
 
         self.driver.quit()
 
@@ -108,9 +159,9 @@ def main():
     parser = argparse.ArgumentParser(description='Tracking Visualization Utility')
 
     parser.add_argument('--input_path', help='Path for the input list of characters and links to their wiki pages.',
-                        default='../../data/character_link_list.csv', type=str)
-    parser.add_argument('--output_path', help='Path for the output list of characters and links to their wiki pages.',
                         default='../../data/character_data.json', type=str)
+    parser.add_argument('--output_path', help='Path for the output list of characters and links to their wiki pages.',
+                        default='../../data/character_data_new.json', type=str)
     parser.add_argument('--debug_mode', help='If True it will always open a browser window.', default=False, type=bool)
 
     args = parser.parse_args()

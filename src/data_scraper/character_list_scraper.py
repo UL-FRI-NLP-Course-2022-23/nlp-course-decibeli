@@ -1,4 +1,5 @@
 import argparse
+import json
 
 import tqdm
 from selenium import webdriver
@@ -34,7 +35,7 @@ def scrape_character_list(output_file, debug_mode=False):
     tmp = driver.find_element(By.CSS_SELECTOR, "#mw-content-text > div")
     list_items = tmp.find_elements(By.CSS_SELECTOR, 'li')
 
-    character_list = []
+    character_data = {}
     print('Scraping list of characters and links...')
     for list_item in tqdm.tqdm(list_items):
         character_link_html = list_item.find_element(By.TAG_NAME, 'a')
@@ -42,19 +43,21 @@ def scrape_character_list(output_file, debug_mode=False):
         character_link = character_link_html.get_attribute("href")
         character_name = character_link_html.get_attribute("title")
 
-        character_list.append((character_name, character_link))
+        character_data[character_name] = {}
+        character_data[character_name]['link'] = character_link
 
     driver.quit()
 
-    with open(output_file, 'w') as fp:
-        fp.write('\n'.join('%s; %s' % x for x in character_list))
+    # Save character data
+    with open(output_file, "w") as outfile:
+        json.dump(character_data, outfile, indent=4)
 
 
 def main():
     parser = argparse.ArgumentParser(description='Tracking Visualization Utility')
 
     parser.add_argument('--output_path', help='Path for the output list of characters and links to their wiki pages.',
-                        default='../../data/character_link_list.csv', type=str)
+                        default='../../data/character_data.json', type=str)
     parser.add_argument('--debug_mode', help='If True it will always open a browser window.', default=False, type=bool)
 
     args = parser.parse_args()
