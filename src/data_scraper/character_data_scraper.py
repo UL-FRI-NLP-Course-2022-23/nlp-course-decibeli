@@ -67,7 +67,6 @@ class Scraper:
         # This was added because in previous version we didn't scroll on each page and so we didn't get the whole data
         # We now have to repair those character data
         new_character_data = {}
-        go = False
         for character_name in character_data.keys():
             if "" in character_data[character_name]:
                 del character_data[character_name][""]
@@ -136,8 +135,8 @@ class Scraper:
                                 element_link = element_link[0].get_attribute('href')
                             element_value = data_element.text
                             character_data[name][header_element.text] = {
-                                'value': element_value,
-                                'link': element_link
+                                'values': element_value,
+                                'links': element_link
                             }
 
                     except Exception as e:
