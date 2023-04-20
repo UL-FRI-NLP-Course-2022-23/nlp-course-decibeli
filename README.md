@@ -15,3 +15,10 @@ Team members:
 -   Tadej Stanonik, 63170268, ts6103@student.uni-lj.si
 
 Group public acronym/name: `83a8x2ru5235qlm9`
+
+## Installation
+1. conda create -n nlp python=3.8
+2. conda activate nlp
+3. pip install -r requirements.txt 
+4. pip install allennlp-models
+5. python -m spacy download en_core_web_sm
