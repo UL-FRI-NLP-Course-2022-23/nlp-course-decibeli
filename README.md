@@ -19,6 +19,6 @@ Group public acronym/name: `83a8x2ru5235qlm9`
 ## Installation
 1. conda create -n nlp python=3.8
 2. conda activate nlp
-3. pip install -r requirements.txt 
-4. pip install allennlp-models
+3. pip install -r requirements.txt
+4. <em>(pip install allennlp==2.9.3 allennlp-models==2.9.3 cached-path==1.1.2) &#8594; OPCIJSKO: glede na to, da allennlp itak ne dela</em>
 5. python -m spacy download en_core_web_sm
