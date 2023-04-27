@@ -1,7 +1,18 @@
+import nltk
 import json
 from enum import Enum
 
-DATA_PATH = '../data/character_data_new.json'
+DATA_PATH = 'data/character_data_new.json'
+nltk.download('punkt')
+
+
+class Book(Enum):
+    A_GAME_OF_THRONES = {"title": "A Game of Thrones", "file_name": "got1.txt"}
+    A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got2.txt"}
+    A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got3.txt"}
+    A_FEAST_FOR_CROWS = {"title": "A Feast for Crows", "file_name": "got4.txt"}
+    A_DANCE_WITH_DRAGONS = {
+        "title": "A Dance with Dragons", "file_name": "got5.txt"}
 
 
 def read_json(input_file):
@@ -11,12 +22,58 @@ def read_json(input_file):
     return character_data
 
 
-class Book(Enum):
-    FIRST = 'A Game of Thrones'
-    SECOND = 'A Clash of Kings'
-    THIRD = 'A Storm of Swords '
-    FORTH = 'A Feast for Crows'
-    FIFTH = 'A Dance with Dragons'
+def save_json(output_file, relations):
+    with open(output_file, "w") as outfile:
+        json.dump(relations, outfile, indent=4)
+
+
+def read_book(book_file):
+    lines = None
+    with open(f'data/books/{book_file}', 'r', encoding='utf-8') as f:
+        lines = f.read()
+
+    return lines
+
+
+def save_processed_book(output_file, txt):
+    with open(f'data/{output_file}', 'w') as f:
+        f.write(txt)
+
+
+def save_triplets(output_file, triplets):
+    with open(f'data/{output_file}', 'w') as f:
+        for triplet in triplets:
+            subject, relation, object_ = triplet
+            f.write(f"{subject};{relation};{object_}\n")
+
+
+def split_book_into_sentences(book_txt: str):
+    sentences = nltk.sent_tokenize(book_txt)
+    return sentences
+
+
+def split_text_by_length(text: str, n: int) -> list:
+    # tokenize the text into sentences
+    sentences = nltk.sent_tokenize(text)
+
+    # initialize variables
+    parts = []
+    current_part = ""
+
+    # iterate through the sentences
+    for sentence in sentences:
+        # if adding the sentence to the current part would exceed the length n, add the current part to the parts list and start a new part
+        if len(current_part) + len(sentence) + 1 > n:
+            parts.append(current_part.strip())
+            current_part = ""
+
+        # add the sentence to the current part
+        current_part += sentence + " "
+
+    # add the last part to the parts list
+    parts.append(current_part.strip())
+
+    return parts
 
 
 def get_characters_from_book(book_title, characters=None):
@@ -41,11 +98,46 @@ def get_characters_from_book(book_title, characters=None):
                     character_book.startswith(book_title) for character_book in characters[character_name]['Books'])
         elif 'Book' in characters[character_name]:
             if 'value' in characters[character_name]['Book']:
-                is_in_book = characters[character_name]['Book']['value'].startswith(book_title)
+                is_in_book = characters[character_name]['Book']['value'].startswith(
+                    book_title)
             else:
-                is_in_book = characters[character_name]['Book'][0].startswith(book_title)
+                is_in_book = characters[character_name]['Book'][0].startswith(
+                    book_title)
 
         if is_in_book:
             characters_in_book[character_name] = characters[character_name].copy()
 
     return characters_in_book
+
+
+def get_character_aliases(character_name, characters=None):
+    if characters is None:
+        characters = read_json(DATA_PATH)
+
+    character_aliases = []
+
+    if 'Aliases' in characters[character_name]:
+        if 'values' in characters[character_name]['Aliases']:
+            character_aliases = characters[character_name]['Aliases']['values']
+        else:
+            character_aliases = characters[character_name]['Aliases']
+
+    return character_aliases
+
+
+def replace_character_aliases(character_name, aliases, text: str):
+    for alias in aliases:
+        text = text.replace(alias, character_name)
+    return text
+
+
+def replace_all_aliases(text: str, characters=None):
+    if characters is None:
+        characters = read_json(DATA_PATH)
+
+    for character_name in characters.keys():
+        character_aliases = get_character_aliases(character_name, characters)
+        text = replace_character_aliases(
+            character_name, character_aliases, text)
+
+    return text
