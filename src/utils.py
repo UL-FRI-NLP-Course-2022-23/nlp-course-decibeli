@@ -1,6 +1,7 @@
 import nltk
 import json
 from enum import Enum
+import re
 
 DATA_PATH = 'data/character_data_new.json'
 nltk.download('punkt')
@@ -47,9 +48,46 @@ def save_triplets(output_file, triplets):
             f.write(f"{subject};{relation};{object_}\n")
 
 
+def get_text_between_words(text, word1, word2):
+    regex = re.compile(rf'{word1}(.+?){word2}')
+    match = regex.search(text)
+    if match:
+        return match.group(1)
+    return None
+
+
+def preprocess_book(book_txt: str, remove_chapter_title=False):
+
+    # Get the text between the prologue and appendix
+    book_txt = book_txt.split('PROLOGUE')[-1]
+    book_txt = book_txt.split('APPENDIX')[0]
+
+    # Remove multiple empty lines
+    book_txt = re.sub(r'\n{2,}', '\n', book_txt)
+
+    if remove_chapter_title:
+        # Remove all words in all caps followed by a new line
+        book_txt = re.sub(r'\b[A-Z]+\b\n', '', book_txt)
+
+    # Replace smart double quotes with normal double quotes
+    book_txt = re.sub(r'[“”]', '"', book_txt)
+    # Replace smart single quotes with normal single quotes
+    book_txt = re.sub(r'[‘’]', "'", book_txt)
+    # Replace '—' with normal '-'
+    book_txt = re.sub(r'—', '-', book_txt)
+    # Remove all occurances of '. . .'
+    book_txt = re.sub(r"\s*\. \. \.", "...", book_txt)
+
+    return book_txt
+
+
 def split_book_into_sentences(book_txt: str):
     sentences = nltk.sent_tokenize(book_txt)
     return sentences
+
+
+def split_book_into_chapters(book_txt: str):
+    return re.split(r'\b[A-Z]+\b\n', book_txt)
 
 
 def split_text_by_length(text: str, n: int) -> list:
@@ -127,7 +165,7 @@ def get_character_aliases(character_name, characters=None):
 
 def replace_character_aliases(character_name, aliases, text: str):
     for alias in aliases:
-        text = text.replace(alias, character_name)
+        text = re.sub(fr"\b{alias}\b", character_name, text)
     return text
 
 

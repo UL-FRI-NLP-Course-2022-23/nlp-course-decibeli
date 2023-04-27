@@ -9,7 +9,10 @@ class FamilyRelationExtractor:
         self.server_url = server_url
         self.headers = {'Content-type': 'text/plain; charset=utf-8'}
 
-    def get_family_relations(self, text):
+        self.family_realtions = ['per:children',
+                                 'per:parents', 'per:siblings', 'per:spouse']
+
+    def get_relations(self, text):
         annotations = requests.post(self.server_url,
                                     data=text.encode('utf-8'),
                                     headers=self.headers).json()
@@ -25,7 +28,7 @@ class FamilyRelationExtractor:
 
         return relations
 
-    def get_family_relations_triplets(self, text, annotations=None):
+    def get_relations_triplets(self, text, annotations=None):
 
         if annotations is None:
             annotations = requests.post(self.server_url, data=text).json()
@@ -39,6 +42,25 @@ class FamilyRelationExtractor:
                 object = relation_info['object']
                 triplet = subject, relation, object
                 triplets.extend([triplet])
+
+        return triplets
+
+    def get_family_relations_triplets(self, text, annotations=None):
+
+        if annotations is None:
+            annotations = requests.post(self.server_url, data=text).json()
+
+        triplets = []
+        for sentence in annotations['sentences']:
+            kbp = sentence['kbp']
+            for relation_info in kbp:
+                subject = relation_info['subject']
+                relation = relation_info['relation']
+                object = relation_info['object']
+
+                if relation in self.family_realtions:
+                    triplet = subject, relation, object
+                    triplets.extend([triplet])
 
         return triplets
 

@@ -1,0 +1,920 @@
+his;per:siblings;Robert
+Robert;per:siblings;his
+his;per:siblings;Robert
+Jon;per:spouse;Robert
+Jon;per:spouse;Jon Hand
+her;per:spouse;her
+her;per:spouse;Lysa
+her;per:spouse;her
+her;per:spouse;Jon Arryn
+Lysa;per:spouse;her
+Jon Arryn;per:spouse;Jon Arryn
+Lysa;per:spouse;Jon Arryn
+Jon Arryn;per:spouse;her
+Jon Arryn;per:spouse;Lysa
+Lommy;per:parents;Lommy
+she;per:siblings;Robb
+Robb;per:siblings;she
+Sandor Clegane;per:siblings;His
+His;per:siblings;His
+His;per:siblings;Sandor Clegane
+Robert;per:parents;Joffrey
+Robert;per:parents;Robert
+Joffrey;per:parents;Garlan Tyrell
+Garlan Tyrell;per:parents;Joffrey
+Joffrey;per:parents;Joffrey
+Robert;per:parents;Garlan Tyrell
+Joffrey;per:parents;Robert
+Garlan Tyrell;per:parents;Robert
+Tyrion Lannister;per:siblings;Tyrion Lannister
+Winterfell;per:siblings;Tyrion Lannister
+Imp;per:siblings;Tyrion Lannister
+Tyrion Lannister;per:siblings;Tyrion Lannister
+Tyrion Lannister;per:siblings;Imp
+Tyrion Lannister;per:siblings;Tyrion Lannister
+Starks;per:siblings;Jaime
+Jaime;per:siblings;Starks
+Starks;per:siblings;Riverrun
+Jaime;per:siblings;Jaime
+Riverrun;per:siblings;Riverrun
+Riverrun;per:siblings;Jaime
+Jaime;per:siblings;Riverrun
+his;per:siblings;Tywin
+Tywin;per:siblings;his
+his;per:siblings;Arryn
+his;per:siblings;his
+Arryn;per:siblings;his
+his;per:siblings;Meryn Trant
+Robert;per:siblings;his
+his;per:siblings;Robert
+Meryn Trant;per:siblings;his
+his;per:siblings;his
+Meryn Trant;per:siblings;Robert
+Robert;per:siblings;Meryn Trant
+Joffrey;per:siblings;Joffrey
+his;per:siblings;Joffrey
+Vylarr;per:siblings;his
+Petyr Baelish;per:parents;Petyr Baelish
+Cheyk;per:parents;Chella
+Chella;per:parents;Cheyk
+Chella;per:parents;Cheyk
+Chella;per:children;Cheyk
+Cheyk;per:children;Chella
+Chella;per:children;Chella
+Chella;per:parents;Cheyk
+Cheyk;per:parents;Chella
+Robb;per:siblings;his
+his;per:siblings;his
+his;per:siblings;Robb
+Robb;per:siblings;Robb
+Robb;per:siblings;his
+his;per:siblings;Robb
+Robb;per:siblings;his
+his;per:siblings;his
+his;per:siblings;Robb
+Robb;per:siblings;Robb
+Walder;per:parents;Merrett
+Calon;per:parents;Fat Tom
+Palla;per:parents;Fat Tom
+Cayn;per:parents;Fat Tom
+Calon;per:parents;Fat Tom
+Cayn;per:parents;Calon
+Cayn;per:parents;Fat Tom
+his;per:siblings;his
+Mooton;per:children;his
+Jeor Mormont;per:children;his
+his;per:parents;Jeor Mormont
+his;per:children;Jeor Mormont
+Jeor Mormont;per:parents;his
+Jeor Mormont;per:children;Jeor Mormont
+his;per:parents;his
+Maekar;per:parents;Aemon
+Maekar;per:children;Aemon
+Aemon;per:parents;Aemon
+Aemon;per:parents;Maekar
+Maekar;per:parents;Maekar
+Aerys;per:parents;Daeron
+Aemon;per:parents;Maekar
+Aemon;per:siblings;Aemon
+Jaime Lannister;per:siblings;Aemon
+Aemon;per:siblings;Jaime Lannister
+Her;per:children;Catelyn Stark
+Her;per:children;Robb
+Robb;per:parents;Her
+Her;per:children;Her
+Robb;per:parents;Robb
+she;per:children;Robb
+Her;per:parents;Robb
+Robb;per:children;Robb
+Her;per:children;Robb
+Robb;per:parents;Her
+Her;per:parents;Her
+she;per:children;Her
+Her;per:children;Her
+Robb;per:children;Her
+Robb;per:parents;she
+Her;per:parents;she
+Her;per:children;Her
+Her;per:children;Grey Wind
+Riverrun;per:siblings;Catelyn
+Ser Edmure Tully;per:siblings;Ser Edmure Tully
+Ser Edmure Tully;per:siblings;Riverrun
+Catelyn;per:siblings;Riverrun
+Riverrun;per:siblings;Ser Edmure Tully
+Ser Edmure Tully;per:siblings;Catelyn
+Catelyn;per:siblings;Ser Edmure Tully
+Catelyn;per:siblings;Catelyn
+Willem Lannister;per:siblings;Willem Lannister
+Tion Frey;per:siblings;Tion Frey
+Willem Lannister;per:siblings;Tion Frey
+Tion Frey;per:siblings;Willem Lannister
+Ser Edmure Tully;per:siblings;her
+Ser Edmure Tully;per:siblings;Ser Edmure Tully
+her;per:siblings;her
+her;per:siblings;Ser Edmure Tully
+Edmure;per:siblings;her
+her;per:siblings;Edmure
+Catelyn;per:parents;Rickard
+Rickard;per:children;Karstark
+Catelyn;per:parents;Karstark
+Karstark;per:parents;Rickard
+Ser Edmure Tully;per:siblings;her
+her;per:siblings;Ser Edmure Tully
+Ser Edmure Tully;per:siblings;her
+her;per:siblings;Ser Edmure Tully
+Her;per:parents;Jaime Lannister
+Her;per:parents;Her
+Her;per:children;Her
+Jaime Lannister;per:children;Her
+Her;per:children;Jaime Lannister
+Tyrion;per:siblings;Tyrion
+Shae;per:siblings;Shae
+Shae;per:siblings;Tyrion
+Tyrion;per:siblings;Shae
+Tyrion;per:siblings;Tyrion
+Tyrion;per:siblings;Tyrion
+Devan;per:parents;his
+his;per:children;Devan
+his;per:children;his
+his;per:spouse;his
+Tommen;per:siblings;her
+Myrcella;per:siblings;Jaime the Jaime Lannister
+Robert;per:siblings;Tommen
+Tommen;per:siblings;Robert
+his;per:siblings;Robert
+Robert;per:siblings;her
+Joffrey;per:siblings;Jaime the Jaime Lannister
+Robert;per:siblings;Cersei Lannister
+Joffrey;per:siblings;Robert
+Joffrey;per:siblings;Myrcella
+her;per:siblings;Robert
+Myrcella;per:siblings;Tommen
+Jaime the Jaime Lannister;per:siblings;Robert
+Jaime the Jaime Lannister;per:siblings;Joffrey
+Tommen;per:siblings;Jaime the Jaime Lannister
+Jaime the Jaime Lannister;per:siblings;Cersei Lannister
+Tommen;per:siblings;Myrcella
+Joffrey;per:siblings;Tommen
+his;per:siblings;Jaime the Jaime Lannister
+Robert;per:siblings;Joffrey
+Myrcella;per:siblings;Robert
+Jaime the Jaime Lannister;per:siblings;Myrcella
+Jaime the Jaime Lannister;per:siblings;Tommen
+her;per:siblings;Jaime the Jaime Lannister
+Cersei Lannister;per:siblings;Robert
+Tommen;per:siblings;Joffrey
+Robert;per:siblings;Jaime the Jaime Lannister
+Jaime the Jaime Lannister;per:siblings;her
+Cersei Lannister;per:siblings;Jaime the Jaime Lannister
+Robert;per:siblings;Myrcella
+Robert Baratheon;per:parents;Robert Baratheon
+Robert Baratheon;per:parents;his
+his;per:parents;Theon Greyjoy
+Robert Baratheon;per:parents;Theon Greyjoy
+his;per:parents;Robert Baratheon
+Pyke;per:parents;Theon Greyjoy
+Theon Greyjoy;per:parents;Pyke
+Pyke;per:parents;Pyke
+Pyke;per:parents;his
+his;per:parents;Pyke
+Pyke;per:parents;Robert Baratheon
+Theon Greyjoy;per:parents;Robert Baratheon
+Robert Baratheon;per:parents;Pyke
+Theon Greyjoy;per:parents;his
+his;per:parents;his
+he;per:spouse;he
+Theon;per:children;Theon
+Theon;per:parents;Theon
+Great Kraken;per:children;Theon
+Theon;per:parents;his
+his;per:children;Victarion
+his;per:children;his
+his;per:parents;his
+his;per:children;his
+his;per:parents;his
+Theon;per:siblings;Theon
+her;per:siblings;her
+Theon;per:siblings;her
+her;per:siblings;Theon
+her;per:siblings;her
+Theon;per:siblings;her
+her;per:siblings;Theon
+Theon;per:children;his
+his;per:parents;Theon
+his;per:children;his
+Theon;per:parents;his
+his;per:parents;his
+his;per:parents;Theon
+Pyke;per:parents;his
+his;per:parents;Pyke
+his;per:children;his
+Theon;per:parents;his
+Pyke;per:children;his
+his;per:parents;his
+Pyke;per:parents;Pyke
+Theon;per:parents;Pyke
+Pyke;per:parents;his
+his;per:parents;Rodrik
+Robb Stark;per:parents;Winterfell
+Winterfell;per:children;his
+his;per:parents;Winterfell
+Pyke;per:siblings;Greyjoys
+Greyjoys;per:siblings;Pyke
+Doreah;per:parents;Doreah
+Khal Drogo;per:siblings;Viserys
+Viserys;per:siblings;Khal Drogo
+Viserys;per:siblings;Viserys
+Khal Drogo;per:siblings;her
+Viserys;per:siblings;Her
+Viserys;per:siblings;her
+Her;per:siblings;Viserys
+Her;per:siblings;Khal Drogo
+Doreah;per:siblings;Viserys
+Viserys;per:siblings;Her
+Her;per:siblings;Viserys
+Viserys;per:siblings;Daenerys Targaryen
+Her;per:siblings;Khal Drogo
+Viserys;per:siblings;Her
+Her;per:siblings;Viserys
+Her;per:siblings;Khal Drogo
+Viserys;per:children;Rhaego
+Khal Drogo;per:children;Rhaego
+Daenerys Targaryen;per:spouse;His
+His;per:spouse;Daenerys Targaryen
+Ser Hosteen;per:siblings;Jason Mallister
+Ser Boros Blount;per:siblings;Ser Hosteen
+Ser Hosteen;per:siblings;Ser Hosteen
+his;per:siblings;Ser Hosteen
+Whent;per:siblings;Ser Hosteen
+Ser Ryman Frey;per:siblings;Ser Hosteen
+Ser Ryman Frey;per:siblings;Whent
+Ser Hosteen;per:siblings;Ser Boros Blount
+Ser Hosteen;per:siblings;his
+his;per:siblings;Ser Ryman Frey
+Jason Mallister;per:siblings;Ser Hosteen
+Lynesse;per:spouse;his
+Lynesse;per:spouse;Mirri Maz Duur
+Mirri Maz Duur;per:spouse;Lynesse
+Arya;per:siblings;Jeyne
+Jeyne;per:siblings;Arya
+Jeyne;per:siblings;Jeyne
+Jeyne;per:siblings;her
+her;per:siblings;her
+her;per:siblings;Jeyne
+Jeyne;per:siblings;Jeyne
+Stannis Baratheon;per:siblings;His
+His;per:siblings;Stannis Baratheon
+his;per:children;his
+his;per:parents;his
+Tyrion;per:spouse;Tyrion
+Cersei;per:spouse;Tyrion
+Robb;per:siblings;Robb
+Wendel;per:children;Wendel
+Wendel;per:parents;Lady Catelyn
+Lady Catelyn;per:children;Wendel
+Wendel;per:children;Wendel
+Wendel;per:children;Wendel
+Bran;per:siblings;Jon
+Jon;per:siblings;Bran
+Lady Donella Hornwood;per:siblings;Jon
+Martyn;per:siblings;Jory
+Jory;per:siblings;Martyn
+Martyn;per:siblings;Martyn
+his;per:children;his
+his;per:children;Roose Bolton
+Roose Bolton;per:parents;his
+his;per:children;Ser Rodrik
+Robb;per:siblings;Ser Rodrik
+Ser Rodrik;per:siblings;Robb
+his;per:children;his
+Her;per:children;Lollys
+Lollys;per:parents;Her
+Renly;per:siblings;his
+Joffrey;per:siblings;Renly
+Renly;per:siblings;Renly
+his;per:siblings;Renly
+her;per:spouse;Robert
+Robert;per:spouse;her
+his;per:parents;his
+Doran Martell;per:siblings;Elia
+Elia;per:siblings;Doran Martell
+Arya;per:children;Arya
+King Aerys;per:parents;King Jaehaerys
+King Jaehaerys;per:parents;King Aerys
+His;per:siblings;Aerys
+Aerys;per:siblings;His
+Jaime;per:siblings;His
+Jaime;per:siblings;Aerys
+His;per:siblings;Jaime
+His;per:siblings;His
+Aerys;per:siblings;Jaime
+Jaime;per:siblings;Jaime
+Myrcella;per:spouse;Tommen
+Beth;per:parents;Ser Rodrik
+Ser Rodrik;per:children;Beth
+Robb;per:spouse;Arya
+Tommen;per:siblings;Myrcella
+Benjen Stark;per:siblings;Robb
+Benjen Stark;per:siblings;Myrcella
+Benjen Stark;per:siblings;Joffrey
+Benjen Stark;per:siblings;Tommen
+Myrcella;per:siblings;Robb
+Joffrey;per:siblings;Benjen Stark
+Myrcella;per:siblings;Benjen Stark
+Tommen;per:siblings;Benjen Stark
+his;per:parents;Septa Mordane
+Hullen;per:parents;Septa Mordane
+Harwin;per:parents;Septa Mordane
+Hullen;per:parents;Porther
+Desmond;per:parents;Septa Mordane
+Alyn;per:parents;Porther
+Robb;per:children;Robb
+Robb;per:siblings;Robb
+Her;per:siblings;Her
+Her;per:siblings;Her
+his;per:siblings;his
+Her;per:children;Her
+Lady Catelyn Stark;per:children;Robb
+Robb;per:parents;Lady Catelyn Stark
+Renly;per:siblings;Robert
+Robert;per:siblings;Renly
+Willum;per:children;Josua
+Joffrey;per:spouse;Robert
+Robert;per:spouse;Joffrey
+Dolorous Edd;per:spouse;Dolorous Edd
+his;per:spouse;He
+Black;per:siblings;Black
+Balon;per:siblings;Balon
+Balon;per:siblings;Asha Greyjoy
+Asha Greyjoy;per:siblings;Balon
+Balon;per:siblings;Balon
+Balon;per:siblings;Theon
+Balon;per:siblings;Balon
+Balon;per:siblings;Asha Greyjoy
+Asha Greyjoy;per:siblings;Balon
+Asha Greyjoy;per:siblings;Asha Greyjoy
+Balon;per:siblings;Balon
+Balon;per:siblings;his
+his;per:siblings;Balon
+Dorne;per:children;Trystane
+Trystane;per:parents;Dorne
+Cerwyn;per:siblings;Tion
+Willem Lannister;per:siblings;Tion
+Hand;per:parents;Tywin
+Myrcella;per:spouse;Trystane Martell
+Trystane Martell;per:spouse;Myrcella
+her;per:parents;Gregor Clegane
+Gregor Clegane;per:children;her
+Joffrey;per:children;Gregor Clegane
+Joffrey;per:children;her
+Meera;per:siblings;Jojen
+Jojen;per:siblings;Meera
+Jojen;per:siblings;her
+her;per:siblings;Jojen
+Arya;per:siblings;him
+him;per:siblings;Arya
+Jeyne Poole;per:siblings;Arya
+Jaime;per:siblings;his
+his;per:siblings;he
+Jaime;per:siblings;Tysha Tysha
+Jaime;per:siblings;Jaime
+he;per:siblings;Jaime
+Jaime;per:siblings;he
+Tysha Tysha;per:siblings;Jaime
+his;per:siblings;Jaime
+his;per:siblings;Tysha Tysha
+Robert;per:siblings;Stannis
+Stannis;per:siblings;Robert
+Tywin;per:children;Cley
+Cley;per:parents;Tywin
+Ilyn Payne;per:children;Joffrey
+Ilyn Payne;per:children;his
+Ilyn Payne;per:parents;Ilyn Payne
+Joffrey;per:parents;Ser Amory
+Ilyn Payne;per:parents;Meryn Trant
+Joffrey;per:parents;Sandor Clegane
+his;per:parents;Ilyn Payne
+Joffrey;per:parents;Chiswyck
+Meryn Trant;per:parents;Ilyn Payne
+Joffrey;per:parents;Ilyn Payne
+Joffrey;per:parents;Raff
+Ilyn Payne;per:parents;Sandor Clegane
+Joffrey;per:parents;Meryn Trant
+Meryn Trant;per:parents;Meryn Trant
+her;per:parents;her
+Jon;per:children;her
+her;per:children;her
+Robb;per:parents;her
+her;per:parents;Jon
+Robb;per:children;her
+her;per:parents;Robb
+Robb;per:parents;Jon
+her;per:parents;her
+Ser Amory;per:children;Ser Amory
+his;per:children;his
+his;per:children;Ser Amory
+Ser Amory;per:children;his
+his;per:parents;Ser Amory
+his;per:parents;his
+his;per:children;his
+Lysa;per:siblings;Lysa
+Tyrion;per:siblings;Lysa
+Baratheon;per:siblings;Baratheon
+his;per:siblings;Brienne
+Brienne;per:siblings;his
+Sandor Clegane;per:siblings;Hobber
+Hobber;per:siblings;Sandor Clegane
+his;per:siblings;Hobber
+Hobber;per:siblings;his
+his;per:siblings;Hobber
+Hobber;per:siblings;his
+his;per:siblings;Hobber
+Hobber;per:siblings;his
+Ser Stafford Lannister;per:siblings;Hobber
+Jaime;per:siblings;Robb
+Robb;per:siblings;Jaime
+Catelyn;per:children;Catelyn
+Robb;per:siblings;Robb
+Robb;per:siblings;Robb
+Robert;per:siblings;his
+his;per:siblings;Robert
+Robert;per:siblings;his
+Robert;per:siblings;Brienne Brienne
+his;per:siblings;Robert
+Brienne Brienne;per:siblings;his
+his;per:siblings;his
+his;per:siblings;Brienne Brienne
+Robert;per:siblings;Robert
+Brienne Brienne;per:siblings;Robert
+Robert;per:siblings;his
+his;per:siblings;Robert
+Robert;per:siblings;his
+his;per:siblings;Robert
+Robert;per:siblings;his
+his;per:siblings;Robert
+Robert;per:siblings;his
+her;per:siblings;Robert
+his;per:siblings;Robert
+Robert;per:siblings;his
+his;per:siblings;Robert
+Jojen Reed;per:siblings;Meera
+Meera;per:siblings;Jojen Reed
+Meera;per:siblings;Meera
+Meera;per:siblings;Jojen
+Meera;per:siblings;her
+her;per:siblings;Meera
+her;per:siblings;her
+his;per:spouse;his
+Theon;per:siblings;Black Wind
+Black Wind;per:siblings;Theon
+Theon;per:siblings;His
+His;per:siblings;Black Wind
+His;per:siblings;Theon
+Black Wind;per:siblings;His
+His;per:siblings;His
+His;per:siblings;His
+Tywin;per:siblings;Ser Kevan
+Ser Kevan;per:siblings;Tywin
+Walder Frey;per:siblings;Ser Perwyn
+Ser Perwyn;per:siblings;Walder Frey
+Riverrun;per:siblings;Ser Edmure
+his;per:siblings;Martyn Rivers
+Martyn Rivers;per:siblings;his
+his;per:siblings;his
+his;per:siblings;Grey Wind
+Grey Wind;per:siblings;his
+Lucas;per:parents;Tytos
+Tytos;per:children;Lucas
+Catelyn;per:siblings;Robin Ryger
+Selwyn the Evenstar;per:children;Brienne
+Brienne;per:siblings;Ser Edmure Tully
+Ser Edmure Tully;per:siblings;Brienne
+Tywin;per:children;Tywin
+Tywin;per:children;Stannis
+Catelyn;per:spouse;Riverrun
+Catelyn;per:spouse;Robb
+Riverrun;per:spouse;Catelyn
+Robb;per:spouse;Robb
+Riverrun;per:spouse;Robb
+her;per:siblings;her
+Jaime;per:siblings;her
+Her;per:siblings;her
+Her;per:siblings;Her
+her;per:siblings;Her
+her;per:siblings;her
+her;per:spouse;her
+Illyrio;per:siblings;Illyrio
+her;per:siblings;her
+his;per:siblings;Aegon
+Aegon;per:siblings;his
+Ser Balon Swann;per:siblings;Cersei
+Cersei;per:siblings;Ser Balon Swann
+Jalabhar Xho;per:parents;Lady Tanda
+Lady Tanda;per:children;Jalabhar Xho
+Lollys;per:parents;Horas Redwyne
+Horas Redwyne;per:children;Lollys
+Lady Tanda;per:children;Lady Tanda
+Tywin Lannister;per:siblings;Devan
+Lannisport;per:siblings;Devan
+Lannisport;per:siblings;Tywin Lannister
+Devan;per:siblings;Lannisport
+Chett;per:siblings;Mormont
+Chett;per:siblings;Jeor Mormont
+Mormont;per:siblings;Chett
+Her;per:siblings;Her
+Her;per:siblings;Her
+Catelyn;per:siblings;Edmure
+Edmure;per:siblings;Her
+Her;per:siblings;Edmure
+Her;per:siblings;Catelyn
+Catelyn;per:siblings;Her
+Edmure;per:siblings;Catelyn
+Catelyn;per:children;Edmure
+Catelyn;per:siblings;Catelyn
+Catelyn;per:parents;her
+her;per:parents;her
+Uncle Brynden;per:children;Osmynd
+Osmynd;per:parents;Maester Kym
+Osmynd;per:parents;Uncle Brynden
+Edmure;per:siblings;Robb
+Robb;per:siblings;Edmure
+his;per:siblings;He
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+His;per:siblings;his
+His;per:siblings;His
+his;per:siblings;His
+his;per:siblings;his
+Jojen Reed;per:siblings;Meera
+Meera;per:siblings;Jojen Reed
+Lady Whent;per:parents;Ben Blackthumb
+Lady Whent;per:parents;Lothston
+Lady Whent;per:parents;Lady Whent
+Ben Blackthumb;per:parents;Ben Blackthumb
+Ben Blackthumb;per:parents;Lothston
+Ben Blackthumb;per:parents;Lady Whent
+Dolf;per:parents;Holger
+Dolf;per:parents;Holger garron
+his;per:children;Tyrion
+his;per:children;Robb Stark
+Tyrion;per:children;Robb Stark
+Lady Tanda;per:children;Lady Tanda
+her;per:children;Lady Tanda
+her;per:children;her
+Lady Tanda;per:children;Lady Tanda
+her;per:children;he
+Tyrion;per:parents;her
+her;per:children;Tyrion
+her;per:parents;her
+her;per:children;Lady Tanda
+Lady Tanda;per:children;her
+Tyrion;per:children;he
+Lady Tanda;per:children;Tyrion
+Tyrion;per:children;Lady Tanda
+he;per:children;Lady Tanda
+he;per:children;Tyrion
+her;per:parents;he
+Tommen;per:siblings;Tommen
+Winterfell;per:siblings;he
+he;per:siblings;his
+his;per:siblings;he
+he;per:siblings;Winterfell
+his;per:siblings;his
+Winterfell;per:siblings;his
+Winterfell;per:siblings;Winterfell
+his;per:siblings;Winterfell
+he;per:siblings;he
+Jon;per:spouse;Jon
+Jon Snow;per:siblings;Jon Snow
+her;per:spouse;Jon
+Jon dirk;per:spouse;Jon
+Jon;per:spouse;Jon
+Ygritte;per:children;Ygritte
+her;per:spouse;Joffrey
+Jon;per:siblings;His
+Jon;per:siblings;Jon
+His;per:siblings;Jon
+Tyrion;per:siblings;Tyrion
+Tyrion;per:siblings;his
+his;per:siblings;Tyrion
+his;per:siblings;his
+his;per:siblings;Gyles
+his;per:siblings;his
+his;per:siblings;his
+his;per:parents;Tyrion
+Tyrion;per:children;his
+Tyrion;per:parents;Tyrion
+Ser Osmund;per:siblings;Osney
+Osney;per:siblings;Ser Osmund
+Ser Osmund;per:siblings;Osney
+Osney;per:siblings;Ser Osmund
+Tyrion;per:siblings;her
+Robb;per:parents;Walder Frey
+Walder Frey;per:parents;Walder Frey
+her;per:siblings;Catelyn
+Catelyn;per:siblings;her
+Robert;per:siblings;she
+she;per:siblings;Robert
+Her;per:siblings;Bran Stark
+Bran Stark;per:spouse;Rickard
+Bran Stark;per:siblings;Her
+Rickard;per:siblings;Her
+Her;per:siblings;Rickard
+Rickard;per:siblings;Bran Stark
+Her;per:siblings;Bran Stark
+Bran Stark;per:siblings;Her
+Rickon;per:siblings;Jon Snow
+Robb;per:siblings;Arya
+Arya;per:siblings;Jon Snow
+Arya;per:siblings;Robb
+Jon Snow;per:siblings;Rickon
+Robb;per:siblings;Jon Snow
+Rickon;per:siblings;Arya
+Jon Snow;per:siblings;Robb
+Jon Snow;per:siblings;Arya
+Matthos;per:parents;His
+His;per:children;Matthos
+Matthos;per:parents;His
+His;per:children;Matthos
+Matthos;per:children;Matthos
+Matthos;per:parents;His
+His;per:children;Matthos
+Davos;per:children;Matthos
+his;per:siblings;Osfryd
+Osfryd;per:siblings;his
+Osfryd;per:siblings;Osfryd
+Ser Osmund;per:siblings;Ser Osmund
+his;per:siblings;Ser Osmund
+his;per:siblings;his
+Ser Osmund;per:siblings;his
+Aenys;per:parents;Rhaenys
+Rhaenys;per:children;Aenys
+Daenerys Targaryen;per:siblings;Daenerys Targaryen
+his;per:siblings;Tywin
+Tywin;per:siblings;his
+Tywin;per:siblings;Tywin
+Robert;per:parents;Starks
+Robert;per:parents;Robert
+Winterfell;per:parents;Robert
+Robert;per:parents;Winterfell
+Winterfell;per:parents;Starks
+Starks;per:parents;Winterfell
+Starks;per:parents;Robert
+her;per:parents;Ilyn Payne
+Joffrey;per:parents;Joffrey
+her;per:siblings;her
+his;per:siblings;he
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+his;per:siblings;his
+Lyanna;per:parents;his
+Rickard;per:parents;Edwyle
+Rodwell;per:siblings;Rodwell
+Donnor;per:parents;Edwyle
+Artos;per:children;his
+Jonnel;per:parents;Rodwell
+Lyanna;per:parents;Rickard Stark Lyanna
+Barth;per:parents;Rodwell
+Rickard;per:siblings;Cregan
+Cregan;per:children;Rickard Stark Lyanna
+Donnor;per:parents;his
+Cregan;per:parents;Barth
+Cregan;per:parents;Edwyle
+Barth;per:parents;Artos
+his;per:children;Rickard Stark Lyanna
+Cregan;per:parents;Artos
+Willam;per:parents;Beron
+Rickard;per:siblings;Jonnel
+his;per:parents;Willam
+Rickard Stark Lyanna;per:parents;Donnor
+Lyanna;per:parents;Edwyle
+Willam;per:parents;Rickard Stark Lyanna
+Edwyle;per:parents;his
+Rickard Stark Lyanna;per:parents;Rodwell
+Cregan;per:parents;Rodwell
+Willam;per:children;Rickard Stark Lyanna
+Barth;per:children;Rickard
+Lyanna;per:siblings;Beron
+Lyanna;per:parents;Barth
+Artos;per:siblings;Cregan
+Rodwell;per:siblings;Cregan
+Jonnel;per:parents;Donnor
+Artos;per:parents;Willam
+Jonnel;per:parents;Beron
+Barth;per:parents;Barth
+Beron;per:parents;Donnor
+Rickard;per:parents;his
+Edwyle;per:children;Rickard
+Rodwell;per:children;Lyanna
+Rickard Stark Lyanna;per:parents;Jonnel
+Barth;per:parents;his
+Edwyle;per:parents;Artos
+his;per:children;Rickard
+Beron;per:parents;Barth
+Jonnel;per:siblings;Barth
+Beron;per:parents;Cregan
+Willam;per:parents;Rodwell
+Donnor;per:parents;Artos
+Lyanna;per:parents;Artos
+Willam;per:siblings;Barth
+Edwyle;per:siblings;Barth
+Artos;per:parents;his
+Artos;per:siblings;his
+Willam;per:parents;Cregan
+Cregan;per:siblings;Cregan
+Edwyle;per:parents;Cregan
+Beron;per:parents;Beron
+Beron;per:children;Rickard Stark Lyanna
+Edwyle;per:parents;Rodwell
+his;per:parents;Cregan
+Beron;per:siblings;Barth
+Barth;per:children;Rickard Stark Lyanna
+Jonnel;per:children;Rickard
+Rickard Stark Lyanna;per:siblings;Cregan
+Donnor;per:siblings;Cregan
+Rickard;per:parents;Willam
+Rickard;per:parents;Artos
+his;per:siblings;Jonnel
+Cregan;per:parents;Willam
+Edwyle;per:children;Lyanna
+his;per:parents;Artos
+Cregan;per:parents;his
+Beron;per:parents;Jonnel
+Barth;per:children;his
+Willam;per:children;his
+Artos;per:children;Rickard Stark Lyanna
+his;per:siblings;Barth
+Beron;per:siblings;Jonnel
+Rickard Stark Lyanna;per:parents;Beron
+Rickard Stark Lyanna;per:parents;his
+Rickard;per:parents;Barth
+Willam;per:siblings;Artos
+Jonnel;per:siblings;Cregan
+Edwyle;per:siblings;Artos
+Lyanna;per:parents;Donnor
+his;per:parents;Jonnel
+Lyanna;per:siblings;Rodwell
+Barth;per:parents;Donnor
+Rodwell;per:children;Rickard Stark Lyanna
+Rodwell;per:siblings;Beron
+Donnor;per:parents;Barth
+Donnor;per:siblings;Jonnel
+Jonnel;per:children;Rickard Stark Lyanna
+Cregan;per:children;Rickard
+his;per:siblings;Cregan
+Jonnel;per:parents;Edwyle
+Rodwell;per:parents;Donnor
+Rodwell;per:parents;Artos
+Beron;per:parents;his
+his;per:siblings;Artos
+Donnor;per:children;Rickard Stark Lyanna
+Beron;per:siblings;Cregan
+Donnor;per:siblings;Rodwell
+Edwyle;per:parents;Jonnel
+his;per:parents;his
+Willam;per:siblings;Jonnel
+Edwyle;per:parents;Rickard
+Rickard Stark Lyanna;per:parents;Lyanna
+Willam;per:children;Rickard
+Jonnel;per:parents;Barth
+Cregan;per:parents;Beron
+Artos;per:siblings;Artos
+Cregan;per:parents;Jonnel
+Lyanna;per:parents;Jonnel
+Rickard;per:parents;Jonnel
+Beron;per:parents;Willam
+Artos;per:parents;Beron
+Rickard;per:siblings;Barth
+Donnor;per:siblings;Barth
+Rickard Stark Lyanna;per:parents;Willam
+Rodwell;per:children;Rickard
+Willam;per:parents;Willam
+Edwyle;per:parents;Willam
+Beron;per:children;his
+his;per:children;his
+Lyanna;per:parents;Cregan
+Jonnel;per:siblings;Jonnel
+Artos;per:parents;Donnor
+Jonnel;per:parents;his
+Rickard;per:parents;Donnor
+Rickard;per:parents;Cregan
+Donnor;per:parents;Jonnel
+Donnor;per:children;his
+Donnor;per:parents;Rickard Stark Lyanna
+Willam;per:siblings;Cregan
+Rodwell;per:parents;Beron
+Beron;per:children;Rickard
+Barth;per:children;Lyanna
+Artos;per:siblings;Rodwell
+Artos;per:siblings;Barth
+Jonnel;per:parents;Artos
+Jonnel;per:children;his
+Lyanna;per:siblings;Jonnel
+Rickard;per:parents;Rodwell
+Jonnel;per:siblings;Beron
+Donnor;per:parents;Rodwell
+Willam;per:children;Lyanna
+Barth;per:siblings;Cregan
+Barth;per:parents;Beron
+Barth;per:parents;Edwyle
+his;per:siblings;Rodwell
+Artos;per:siblings;Willam
+Lyanna;per:siblings;Cregan
+his;per:parents;Barth
+Cregan;per:children;Lyanna
+Jonnel;per:parents;Willam
+Cregan;per:parents;Donnor
+Rodwell;per:parents;Edwyle
+Lyanna;per:parents;Rickard
+Donnor;per:parents;Donnor
+Donnor;per:parents;Cregan
+his;per:parents;Beron
+Rodwell;per:parents;his
+Rickard Stark Lyanna;per:parents;Artos
+his;per:parents;Donnor
+his;per:siblings;Beron
+Donnor;per:parents;Willam
+Barth;per:parents;Jonnel
+Artos;per:siblings;Jonnel
+Artos;per:parents;Rodwell
+Willam;per:parents;his
+Beron;per:parents;Edwyle
+his;per:parents;Edwyle
+Rickard Stark Lyanna;per:parents;Edwyle
+Donnor;per:parents;Beron
+Lyanna;per:parents;Beron
+Edwyle;per:parents;Donnor
+Lyanna;per:parents;Rodwell
+Willam;per:parents;Rickard
+Willam;per:parents;Edwyle
+Rodwell;per:parents;Jonnel
+Edwyle;per:siblings;Jonnel
+Artos;per:children;Lyanna
+Lyanna;per:parents;Willam
+Edwyle;per:parents;Beron
+Rodwell;per:children;his
+Edwyle;per:parents;Edwyle
+Donnor;per:children;Lyanna
+Beron;per:parents;Rodwell
+Willam;per:parents;Donnor
+Beron;per:parents;Artos
+Artos;per:children;Rickard
+Edwyle;per:siblings;Cregan
+his;per:siblings;Donnor
+Beron;per:parents;Rickard
+Rickard Stark Lyanna;per:parents;Barth
+Barth;per:parents;Cregan
+Rodwell;per:siblings;Jonnel
+Beron;per:children;Lyanna
+his;per:parents;Rodwell
+Artos;per:parents;Edwyle
+Rodwell;per:parents;Willam
+Rickard;per:parents;Beron
+Donnor;per:parents;Rickard
+Barth;per:parents;Willam
+Jonnel;per:children;Lyanna
+Jonnel;per:siblings;Rodwell
+Rodwell;per:siblings;Barth
+his;per:children;Lyanna
+Donnor;per:children;Rickard
+Rickard Stark Lyanna;per:parents;Rickard
+his;per:siblings;Donnor
+Artos;per:siblings;his
+his;per:siblings;Cregan
+his;per:siblings;Rodwell
+Artos;per:siblings;Willam
+Willam;per:siblings;Artos
+his;per:siblings;Artos
+his;per:siblings;Beron
+his;per:siblings;Barth
+his;per:siblings;Jonnel
