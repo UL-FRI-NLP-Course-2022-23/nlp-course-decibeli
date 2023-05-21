@@ -1,9 +1,11 @@
 from typing import List
 import nltk
 import json
-from enum import Enum
+from enum import Enum, EnumMeta
 import re
 import csv
+import numpy as np
+import pprint
 
 DATA_PATH = "data/character_data_new.json"
 nltk.download("punkt")
@@ -21,6 +23,8 @@ class RELATIONSHIP(Enum):
     FATHER = "father"
     MOTHER = "mother"
     SPOUSE = "spouse"
+    SIBLING = "sibling"
+    CHILDREN = "children"
 
 
 def read_json(input_file):
@@ -301,3 +305,62 @@ def substring_in_array(s: str, arr: List[str]) -> bool:
             return True
 
     return False
+
+
+def add_child_sibling_relationships():
+    gt = parse_gt_relationships()
+
+    for person in gt.keys():
+        if RELATIONSHIP.FATHER in gt[person]:
+            fathers = gt[person][RELATIONSHIP.FATHER]
+            siblings = [person]
+            for poss_sibling in gt.keys():
+                if RELATIONSHIP.FATHER in gt[poss_sibling]:
+                    if (
+                        np.intersect1d(
+                            gt[poss_sibling][RELATIONSHIP.FATHER], fathers
+                        ).size
+                        > 0
+                    ):
+                        siblings.append(poss_sibling)
+
+            for sibling in siblings:
+                gt[sibling][RELATIONSHIP.SIBLING] = list(
+                    dict.fromkeys(list(filter(lambda x: (sibling != x), siblings)))
+                )
+        if RELATIONSHIP.MOTHER in gt[person]:
+            for mother in gt[person][RELATIONSHIP.MOTHER]:
+                if mother in gt.keys():
+                    if RELATIONSHIP.CHILDREN not in gt[mother]:
+                        gt[mother][RELATIONSHIP.CHILDREN] = [person]
+                    else:
+                        gt[mother][RELATIONSHIP.CHILDREN].append(person)
+
+
+def gt_relationships():
+    return add_child_sibling_relationships()
+
+
+def convert_enum_keys_to_string(data):
+    if isinstance(data, dict):
+        new_dict = {}
+        for key, value in data.items():
+            if isinstance(key, Enum):
+                key = key.value  # Use the enum member's value
+            elif isinstance(key, EnumMeta):
+                key = key.__name__
+            if isinstance(value, (dict, list)):
+                new_dict[key] = convert_enum_keys_to_string(value)
+            else:
+                new_dict[key] = value
+        return new_dict
+    elif isinstance(data, list):
+        new_list = []
+        for item in data:
+            if isinstance(item, (dict, list)):
+                new_list.append(convert_enum_keys_to_string(item))
+            else:
+                new_list.append(item)
+        return new_list
+    else:
+        return data
