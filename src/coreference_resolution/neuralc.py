@@ -9,7 +9,7 @@ import neuralcoref
 
 class NeuralC:
     def __init__(self):
-        self.nlp = spacy.load('en_core_web_sm')
+        self.nlp = spacy.load('en_core_web_lg')
         neuralcoref.add_to_pipe(self.nlp)
 
     def coreference_res(self, text):
