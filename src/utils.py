@@ -7,6 +7,8 @@ import csv
 import numpy as np
 import pprint
 
+from tqdm import tqdm
+
 DATA_PATH = "data/character_data_new.json"
 nltk.download("punkt")
 
@@ -16,7 +18,8 @@ class Book(Enum):
     A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got2.txt"}
     A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got3.txt"}
     A_FEAST_FOR_CROWS = {"title": "A Feast for Crows", "file_name": "got4.txt"}
-    A_DANCE_WITH_DRAGONS = {"title": "A Dance with Dragons", "file_name": "got5.txt"}
+    A_DANCE_WITH_DRAGONS = {
+        "title": "A Dance with Dragons", "file_name": "got5.txt"}
 
 
 class RELATIONSHIP(Enum):
@@ -182,6 +185,15 @@ def get_character_aliases(character_name, characters=None):
         else:
             character_aliases = characters[character_name]["Aliases"]
 
+    elif "Alias" in characters[character_name]:
+        if "value" in characters[character_name]["Alias"]:
+            character_aliases = [characters[character_name]["Alias"]["value"]]
+        else:
+            character_aliases = characters[character_name]["Alias"]
+
+    for character_alias in character_aliases:
+        if character_alias in characters:
+            character_aliases.remove(character_alias)
     return character_aliases
 
 
@@ -195,9 +207,10 @@ def replace_all_aliases(text: str, characters=None):
     if characters is None:
         characters = read_json(DATA_PATH)
 
-    for character_name in characters.keys():
+    for character_name in tqdm(characters.keys()):
         character_aliases = get_character_aliases(character_name, characters)
-        text = replace_character_aliases(character_name, character_aliases, text)
+        text = replace_character_aliases(
+            character_name, character_aliases, text)
 
     return text
 
@@ -326,7 +339,8 @@ def add_child_sibling_relationships():
 
             for sibling in siblings:
                 gt[sibling][RELATIONSHIP.SIBLING] = list(
-                    dict.fromkeys(list(filter(lambda x: (sibling != x), siblings)))
+                    dict.fromkeys(
+                        list(filter(lambda x: (sibling != x), siblings)))
                 )
         if RELATIONSHIP.MOTHER in gt[person]:
             for mother in gt[person][RELATIONSHIP.MOTHER]:
