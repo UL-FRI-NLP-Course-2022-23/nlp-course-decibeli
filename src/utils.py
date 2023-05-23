@@ -14,12 +14,12 @@ nltk.download("punkt")
 
 
 class Book(Enum):
-    A_GAME_OF_THRONES = {"title": "A Game of Thrones", "file_name": "got1.txt"}
-    A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got2.txt"}
-    A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got3.txt"}
+    A_GAME_OF_THRONES = {"title": "A Game of Thrones", "file_name": "got5.txt"}
+    A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got1.txt"}
+    A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got2.txt"}
     A_FEAST_FOR_CROWS = {"title": "A Feast for Crows", "file_name": "got4.txt"}
     A_DANCE_WITH_DRAGONS = {
-        "title": "A Dance with Dragons", "file_name": "got5.txt"}
+        "title": "A Dance with Dragons", "file_name": "got3.txt"}
 
 
 class RELATIONSHIP(Enum):
