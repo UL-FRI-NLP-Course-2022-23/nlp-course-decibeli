@@ -18,8 +18,7 @@ class Book(Enum):
     A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got2.txt"}
     A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got3.txt"}
     A_FEAST_FOR_CROWS = {"title": "A Feast for Crows", "file_name": "got4.txt"}
-    A_DANCE_WITH_DRAGONS = {
-        "title": "A Dance with Dragons", "file_name": "got5.txt"}
+    A_DANCE_WITH_DRAGONS = {"title": "A Dance with Dragons", "file_name": "got5.txt"}
 
 
 class RELATIONSHIP(Enum):
@@ -52,6 +51,14 @@ def save_json(output_file, relations):
 def read_book(book_file):
     lines = None
     with open(f"data/books/{book_file}", "r", encoding="utf-8") as f:
+        lines = f.read()
+
+    return lines
+
+
+def read_coref_book(coref_file):
+    lines = None
+    with open(f"data/coref_res/{coref_file}", "r", encoding="utf-8") as f:
         lines = f.read()
 
     return lines
@@ -209,14 +216,16 @@ def replace_all_aliases(text: str, characters=None):
 
     for character_name in tqdm(characters.keys()):
         character_aliases = get_character_aliases(character_name, characters)
-        text = replace_character_aliases(
-            character_name, character_aliases, text)
+        text = replace_character_aliases(character_name, character_aliases, text)
 
     return text
 
 
-def parse_gt_relationships():
-    characters = read_json(DATA_PATH)
+def parse_gt_relationships(from_book: str = None):
+    if from_book is not None:
+        characters = get_characters_from_book(from_book)
+    else:
+        characters = read_json(DATA_PATH)
     chars_rels = {}
 
     for character in characters:
@@ -339,8 +348,7 @@ def add_child_sibling_relationships():
 
             for sibling in siblings:
                 gt[sibling][RELATIONSHIP.SIBLING] = list(
-                    dict.fromkeys(
-                        list(filter(lambda x: (sibling != x), siblings)))
+                    dict.fromkeys(list(filter(lambda x: (sibling != x), siblings)))
                 )
         if RELATIONSHIP.MOTHER in gt[person]:
             for mother in gt[person][RELATIONSHIP.MOTHER]:

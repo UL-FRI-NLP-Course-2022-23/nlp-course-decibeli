@@ -14,7 +14,7 @@ class CoreNLPExtractor(FamilyRelationExtractor):
         self.server_url = server_url
         self.headers = {"Content-type": "text/plain; charset=utf-8"}
 
-    def get_family_relations_triplets(self, text, entities=None, annotations=None):
+    def get_family_relations_triplets(self, text, annotations=None):
         if annotations is None:
             annotations = requests.post(self.server_url, data=text).json()
 
