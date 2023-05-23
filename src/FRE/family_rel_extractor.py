@@ -11,5 +11,5 @@ class FamilyRelationExtractor(ABC):
         ]
 
     @abstractmethod
-    def get_family_relations_triplets(self, text, entities, annotations):
+    def get_family_relations_triplets(self, text, annotations):
         pass

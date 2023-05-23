@@ -1,20 +1,24 @@
+import sys
+
+
+sys.path.append("./src")
+from NER.ner_spacy import Ner_Spacy
 from transformers import AutoTokenizer, LukeForEntityPairClassification
-from family_rel_extractor import FamilyRelationExtractor
+from FRE.family_rel_extractor import FamilyRelationExtractor
+import re
 
 
 class LukeExtractor(FamilyRelationExtractor):
-    def __init__(self):
-        super().__init__()
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            "studio-ousia/luke-large-finetuned-tacred"
-        )
-        self.model = LukeForEntityPairClassification.from_pretrained(
-            "studio-ousia/luke-large-finetuned-tacred"
-        )
+    def get_family_relations_triplets(self, text, annotations=None):
+        if not self.includes_relationship(text):
+            return []
 
-    def get_family_relations_triplets(self, text, entities=None, annotations=None):
-        if entities is None:
-            raise Exception("Entities must be provided for LUKE.")
+        entities = self.ner_entities(text)
+        if len(entities) != 2:
+            return []
+
+        # print(text)
+        # print(entities)
 
         entity_spans = self.word_indexes(entities, text)
 
@@ -24,10 +28,25 @@ class LukeExtractor(FamilyRelationExtractor):
         predicted_class_idx = logits.argmax(-1).item()
         predicted_class = self.model.config.id2label[predicted_class_idx]
 
-        if self.family_relations in predicted_class:
-            return f"{entities[0]};{predicted_class};{entities[1]}"
+        if predicted_class in self.family_relations:
+            triplet = entities[0], predicted_class, entities[1]
+            return [triplet]
         else:
-            return ""
+            return []
+
+    def includes_relationship(self, sentence: str):
+        return re.compile("|".join(self.relationship_stop_words), re.IGNORECASE).search(
+            sentence
+        )
+
+    def ner_entities(self, sentence: str):
+        entities_dict = self.ner.predict(sentence)
+        entities = []
+
+        if len(entities_dict) > 1:
+            entities = [entity for entity in entities_dict.keys()]
+
+        return entities
 
     def word_indexes(self, words, text):
         ixs = []
@@ -40,7 +59,28 @@ class LukeExtractor(FamilyRelationExtractor):
 
         return ixs
 
+    def __init__(self):
+        super().__init__()
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            "studio-ousia/luke-large-finetuned-tacred"
+        )
+        self.model = LukeForEntityPairClassification.from_pretrained(
+            "studio-ousia/luke-large-finetuned-tacred"
+        )
+        self.ner = Ner_Spacy()
+        self.relationship_stop_words = [
+            "father",
+            "mother" "spouse",
+            "husband",
+            "son",
+            "daughter" "wife",
+            "child",
+            "brother",
+            "sister",
+            "sibling",
+        ]
+
 
 # text = "John Snow is the son of Aegon Targaryen."
-# fre = LukeRelationExtractor()
+# fre = LukeExtractor()
 # print(fre.get_family_relations_triplets(text, ["John Snow", "Aegon Targaryen"]))

@@ -1,4 +1,5 @@
 from utils import (
+    Book,
     parse_gt_relationships,
     parse_predicted_relationships,
     RELATIONSHIP,
@@ -112,7 +113,8 @@ def f1(tp, fp, fn):
 
 
 if __name__ == "__main__":
-    gt = parse_gt_relationships()
+    gt = parse_gt_relationships(Book.A_GAME_OF_THRONES.value["title"])
+    # gt = parse_gt_relationships()
     predicted = parse_predicted_relationships()
 
     tp, fp, fn = eval_relationship(gt, predicted)

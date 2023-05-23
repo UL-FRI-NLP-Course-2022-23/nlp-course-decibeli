@@ -57,6 +57,14 @@ def read_book(book_file):
     return lines
 
 
+def read_coref_book(coref_file):
+    lines = None
+    with open(f"data/coref_res/{coref_file}", "r", encoding="utf-8") as f:
+        lines = f.read()
+
+    return lines
+
+
 def save_processed_book(output_file, txt):
     with open(f"data/{output_file}", "w") as f:
         f.write(txt)
@@ -209,14 +217,16 @@ def replace_all_aliases(text: str, characters=None):
 
     for character_name in tqdm(characters.keys()):
         character_aliases = get_character_aliases(character_name, characters)
-        text = replace_character_aliases(
-            character_name, character_aliases, text)
+        text = replace_character_aliases(character_name, character_aliases, text)
 
     return text
 
 
-def parse_gt_relationships():
-    characters = read_json(DATA_PATH)
+def parse_gt_relationships(from_book: str = None):
+    if from_book is not None:
+        characters = get_characters_from_book(from_book)
+    else:
+        characters = read_json(DATA_PATH)
     chars_rels = {}
 
     for character in characters:
@@ -339,8 +349,7 @@ def add_child_sibling_relationships():
 
             for sibling in siblings:
                 gt[sibling][RELATIONSHIP.SIBLING] = list(
-                    dict.fromkeys(
-                        list(filter(lambda x: (sibling != x), siblings)))
+                    dict.fromkeys(list(filter(lambda x: (sibling != x), siblings)))
                 )
         if RELATIONSHIP.MOTHER in gt[person]:
             for mother in gt[person][RELATIONSHIP.MOTHER]:
