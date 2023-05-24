@@ -84,7 +84,7 @@ def get_text_between_words(text, word1, word2):
     return None
 
 
-def preprocess_book(book_txt: str, remove_chapter_title=False):
+def preprocess_book(book_txt: str, remove_chapter_title=False, remove_dialog=False):
     # Get the text between the prologue and appendix
     book_txt = book_txt.split("PROLOGUE")[-1]
     book_txt = book_txt.split("APPENDIX")[0]
@@ -112,6 +112,9 @@ def preprocess_book(book_txt: str, remove_chapter_title=False):
     book_txt = re.sub(r"—", "-", book_txt)
     # Remove all occurances of '. . .'
     book_txt = re.sub(r"\s*\. \. \.", "...", book_txt)
+
+    if remove_dialog:
+        book_txt = book_txt.replace('"', '')
 
     return book_txt
 
@@ -214,7 +217,10 @@ def get_character_aliases(character_name, characters=None):
 
 def replace_character_aliases(character_name, aliases, text: str):
     for alias in aliases:
-        text = re.sub(rf"\b{alias}\b", character_name, text)
+        alias_re = rf"\b{alias}\b"
+        if len(alias.split()) > 1:
+            alias_re = rf"\b[{alias[0].upper()}{alias[0].lower()}]{alias[1:]}\b"
+        text = re.sub(alias_re, character_name, text)
     return text
 
 
