@@ -18,8 +18,7 @@ class Book(Enum):
     A_CLASH_OF_KINGS = {"title": "A Clash of Kings", "file_name": "got1.txt"}
     A_STORM_OF_SWORDS = {"title": "A Storm of Swords", "file_name": "got2.txt"}
     A_FEAST_FOR_CROWS = {"title": "A Feast for Crows", "file_name": "got4.txt"}
-    A_DANCE_WITH_DRAGONS = {
-        "title": "A Dance with Dragons", "file_name": "got3.txt"}
+    A_DANCE_WITH_DRAGONS = {"title": "A Dance with Dragons", "file_name": "got3.txt"}
 
 
 class RELATIONSHIP(Enum):
@@ -232,6 +231,8 @@ def parse_gt_relationships(from_book: str = None):
     for character in characters:
         char_key = character.lower()
         chars_rels[char_key] = {}
+        chars_rels[char_key]["link"] = characters[character]["link"].strip()
+        chars_rels[char_key]["name"] = character
 
         if "Spouse" in characters[character]:
             chars_rels[char_key][RELATIONSHIP.SPOUSE] = parse_character_relationships(
@@ -265,21 +266,23 @@ def parse_gt_relationships(from_book: str = None):
 
         # Filter unknowns:
         for relationship in chars_rels[char_key]:
-            chars_rels[char_key][relationship] = list(
-                filter(
-                    lambda x: ("unknown" not in x and "Unknown" not in x),
-                    chars_rels[char_key][relationship],
+            if relationship != "link" and relationship != "name":
+                chars_rels[char_key][relationship] = list(
+                    filter(
+                        lambda x: ("unknown" not in x and "Unknown" not in x),
+                        chars_rels[char_key][relationship],
+                    )
                 )
-            )
 
         # Convert to lower:
         for relationship in chars_rels[char_key]:
-            chars_rels[char_key][relationship] = list(
-                map(
-                    lambda x: x.lower(),
-                    chars_rels[char_key][relationship],
+            if relationship != "link" and relationship != "name":
+                chars_rels[char_key][relationship] = list(
+                    map(
+                        lambda x: x.lower(),
+                        chars_rels[char_key][relationship],
+                    )
                 )
-            )
 
     return chars_rels
 
@@ -295,8 +298,8 @@ def parse_character_relationships(rel_str, character, characters):
 
 
 def parse_predicted_relationships():
-    raw_csw = read_csv("data/family_triplets.csv")
-    chars_rels = {}
+    raw_csw = read_csv("data/family_triplets_luke.csv")
+    chars_rels = []
 
     for row in raw_csw:
         char_key = row[0].lower()
@@ -304,11 +307,19 @@ def parse_predicted_relationships():
         if "his" in char_key or "her" in char_key:
             continue
 
-        chars_rels[char_key] = {}
-
         relationship_name = row[1].split(":")[1].lower()
+        rel_to = row[2].lower()
 
-        chars_rels[char_key][relationship_name] = row[2].lower()
+        chars_rels.append((char_key, relationship_name, rel_to))
+
+        # if char_key not in chars_rels:
+        #     chars_rels[char_key] = {}
+
+
+        # if relationship_name not in chars_rels[char_key]:
+        #     chars_rels[char_key][relationship_name] = [row[2].lower()]
+        # else:
+        #     chars_rels[char_key][relationship_name].append(row[2].lower())
 
     return chars_rels
 
@@ -330,8 +341,8 @@ def substring_in_array(s: str, arr: List[str]) -> bool:
     return False
 
 
-def add_child_sibling_relationships():
-    gt = parse_gt_relationships()
+def add_child_sibling_relationships(from_book: str = None):
+    gt = parse_gt_relationships(from_book)
 
     for person in gt.keys():
         if RELATIONSHIP.FATHER in gt[person]:
@@ -359,9 +370,14 @@ def add_child_sibling_relationships():
                     else:
                         gt[mother][RELATIONSHIP.CHILDREN].append(person)
 
+    return gt
 
-def gt_relationships():
-    return add_child_sibling_relationships()
+
+def gt_relationships(from_book: str = None):
+    rels = add_child_sibling_relationships(from_book)
+    with open("data/gt_relationships.json", "w+") as fp:
+        json.dump(convert_enum_keys_to_string(rels), fp)
+    return rels
 
 
 def convert_enum_keys_to_string(data):

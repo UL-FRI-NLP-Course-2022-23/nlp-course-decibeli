@@ -1,9 +1,9 @@
 from utils import (
     Book,
-    parse_gt_relationships,
     parse_predicted_relationships,
     RELATIONSHIP,
     substring_in_array,
+    gt_relationships,
 )
 import json
 
@@ -15,11 +15,11 @@ def eval_relationship(gt_haracter_data, predicted_character_data):
     fp = 0
 
     # compute tp and fp
-    for predicted_char in predicted_character_data:
+    for predicted_char, rel_name, rel_to in predicted_character_data:
         # relationship name
-        rel_name = list(predicted_character_data[predicted_char].keys())[0]
-        # related character
-        rel_to = predicted_character_data[predicted_char][rel_name]
+        # rel_name = list(predicted_character_data[predicted_char].keys())[0]
+        # # related character
+        # rel_to = predicted_character_data[predicted_char][rel_name]
 
         if rel_name == "spouse" or rel_name == "parents":
             all += 1
@@ -43,6 +43,34 @@ def eval_relationship(gt_haracter_data, predicted_character_data):
                     elif RELATIONSHIP.MOTHER in gt_haracter_data[gt_char]:
                         if substring_in_array(
                             rel_to, gt_haracter_data[gt_char][RELATIONSHIP.MOTHER]
+                        ):
+                            matches += 1
+                            tp += 1
+            if old_tp == tp:
+                fp += 1
+
+        if rel_name == "siblings":
+            all += 1
+            old_tp = tp
+            for gt_char in gt_haracter_data:
+                if predicted_char in gt_char:
+                    if RELATIONSHIP.SIBLING in gt_haracter_data[gt_char]:
+                        if substring_in_array(
+                            rel_to, gt_haracter_data[gt_char][RELATIONSHIP.SIBLING]
+                        ):
+                            matches += 1
+                            tp += 1
+            if old_tp == tp:
+                fp += 1
+
+        if rel_name == "children":
+            all += 1
+            old_tp = tp
+            for gt_char in gt_haracter_data:
+                if predicted_char in gt_char:
+                    if RELATIONSHIP.CHILDREN in gt_haracter_data[gt_char]:
+                        if substring_in_array(
+                            rel_to, gt_haracter_data[gt_char][RELATIONSHIP.CHILDREN]
                         ):
                             matches += 1
                             tp += 1
@@ -113,7 +141,7 @@ def f1(tp, fp, fn):
 
 
 if __name__ == "__main__":
-    gt = parse_gt_relationships(Book.A_GAME_OF_THRONES.value["title"])
+    gt = gt_relationships(Book.A_GAME_OF_THRONES.value["title"])
     # gt = parse_gt_relationships()
     predicted = parse_predicted_relationships()
 
