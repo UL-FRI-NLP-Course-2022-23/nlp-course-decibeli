@@ -114,7 +114,7 @@ def preprocess_book(book_txt: str, remove_chapter_title=False, remove_dialog=Fal
     book_txt = re.sub(r"\s*\. \. \.", "...", book_txt)
 
     if remove_dialog:
-        book_txt = book_txt.replace('"', '')
+        book_txt = book_txt.replace('"', "")
 
     return book_txt
 
@@ -235,11 +235,8 @@ def replace_all_aliases(text: str, characters=None):
     return text
 
 
-def parse_gt_relationships(from_book: str = None):
-    if from_book is not None:
-        characters = get_characters_from_book(from_book)
-    else:
-        characters = read_json(DATA_PATH)
+def parse_gt_relationships():
+    characters = read_json(DATA_PATH)
     chars_rels = {}
 
     for character in characters:
@@ -311,8 +308,8 @@ def parse_character_relationships(rel_str, character, characters):
             return characters[character][rel_str]["values"]
 
 
-def parse_predicted_relationships():
-    raw_csw = read_csv("data/family_triplets_luke.csv")
+def parse_predicted_relationships(filename: str):
+    raw_csw = read_csv(filename)
     chars_rels = []
 
     for row in raw_csw:
@@ -354,8 +351,8 @@ def substring_in_array(s: str, arr: List[str]) -> bool:
     return False
 
 
-def add_child_sibling_relationships(from_book: str = None):
-    gt = parse_gt_relationships(from_book)
+def add_child_sibling_relationships():
+    gt = parse_gt_relationships()
 
     for person in gt.keys():
         if RELATIONSHIP.FATHER in gt[person]:
@@ -386,8 +383,8 @@ def add_child_sibling_relationships(from_book: str = None):
     return gt
 
 
-def gt_relationships(from_book: str = None):
-    rels = add_child_sibling_relationships(from_book)
+def gt_relationships():
+    rels = add_child_sibling_relationships()
     with open("data/gt_relationships.json", "w+") as fp:
         json.dump(convert_enum_keys_to_string(rels), fp)
     return rels
@@ -422,16 +419,12 @@ def filter_top_characters(top_characters_filename: str):
     with open(top_characters_filename, "r") as fp:
         lines = fp.read().split("\n")
 
-    print(lines)
-    all_chars = read_json(DATA_PATH)
+    gt_rels = read_json("data/gt_relationships.json")
     filtered_chars = {}
 
     for line in lines:
-        if line in all_chars:
-            filtered_chars[line] = all_chars[line]
+        if line.lower() in gt_rels:
+            filtered_chars[line.lower()] = gt_rels[line.lower()]
 
-    with open("data/character_data_top25.json", "w+") as fp:
+    with open("data/gt_relationships_top25.json", "w+") as fp:
         json.dump(filtered_chars, fp)
-
-
-filter_top_characters("data/top25_characters.txt")

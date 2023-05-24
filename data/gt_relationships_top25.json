@@ -1,0 +1,160 @@
+{
+    "cersei lannister": {
+        "link": "https://awoiaf.westeros.org/index.php/Cersei_Lannister",
+        "name": "Cersei Lannister",
+        "spouse": ["king robert i baratheon"],
+        "father": ["lord tywin lannister"],
+        "mother": ["lady joanna lannister"],
+        "sibling": ["tyrion lannister", "jaime lannister"],
+        "children": ["joffrey baratheon", "myrcella baratheon", "tommen baratheon"]
+    },
+    "arya stark": {
+        "link": "https://awoiaf.westeros.org/index.php/Arya_Stark",
+        "name": "Arya Stark",
+        "spouse": ["lord ramsay bolton (allegedly)"],
+        "father": ["lord eddard stark"],
+        "mother": ["lady catelyn tully"],
+        "sibling": ["sansa stark", "bran stark", "jon snow"]
+    },
+    "jaime lannister": {
+        "link": "https://awoiaf.westeros.org/index.php/Jaime_Lannister",
+        "name": "Jaime Lannister",
+        "father": ["lord tywin lannister"],
+        "mother": ["lady joanna lannister"],
+        "sibling": ["tyrion lannister", "cersei lannister"]
+    },
+    "joffrey baratheon": {
+        "link": "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+        "name": "Joffrey Baratheon",
+        "father": ["robert i baratheon (legally)", "jaime lannister (biologically)"],
+        "mother": ["cersei lannister"],
+        "sibling": ["tommen baratheon", "myrcella baratheon"]
+    },
+    "tyrion lannister": {
+        "link": "https://awoiaf.westeros.org/index.php/Tyrion_Lannister",
+        "name": "Tyrion Lannister",
+        "spouse": ["1st: tysha (annulled)", "2nd: sansa stark"],
+        "father": ["lord tywin lannister"],
+        "mother": ["lady joanna lannister"],
+        "sibling": ["cersei lannister", "jaime lannister"]
+    },
+    "bran stark": {
+        "link": "https://awoiaf.westeros.org/index.php/Bran_Stark",
+        "name": "Bran Stark",
+        "father": ["lord eddard stark"],
+        "mother": ["lady catelyn tully"],
+        "sibling": ["sansa stark", "arya stark", "jon snow"]
+    },
+    "daenerys targaryen": {
+        "link": "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
+        "name": "Daenerys Targaryen",
+        "father": ["king aerys ii targaryen"],
+        "mother": ["queen rhaella targaryen"],
+        "sibling": [],
+        "children": ["rhaego"]
+    },
+    "sansa stark": {
+        "link": "https://awoiaf.westeros.org/index.php/Sansa_Stark",
+        "name": "Sansa Stark",
+        "spouse": ["tyrion lannister"],
+        "father": ["lord eddard stark"],
+        "mother": ["lady catelyn tully"],
+        "sibling": ["arya stark", "bran stark", "jon snow"]
+    },
+    "jon snow": {
+        "link": "https://awoiaf.westeros.org/index.php/Jon_Snow",
+        "name": "Jon Snow",
+        "father": ["lord eddard stark"],
+        "mother": [
+            "wylla (supposedly)",
+            "ashara dayne (rumored)",
+            "fisherman's daughter (rumored)"
+        ],
+        "sibling": ["sansa stark", "arya stark", "bran stark"]
+    },
+    "robert i baratheon": {
+        "link": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon",
+        "name": "Robert I Baratheon",
+        "father": ["steffon baratheon"],
+        "mother": ["cassana estermont"],
+        "sibling": []
+    },
+    "tywin lannister": {
+        "link": "https://awoiaf.westeros.org/index.php/Tywin_Lannister",
+        "name": "Tywin Lannister",
+        "spouse": ["lady joanna lannister"],
+        "father": ["tytos lannister"],
+        "mother": ["jeyne marbrand"],
+        "sibling": ["genna lannister", "gerion lannister", "tygett lannister"]
+    },
+    "petyr baelish": {
+        "link": "https://awoiaf.westeros.org/index.php/Petyr_Baelish",
+        "name": "Petyr Baelish",
+        "spouse": ["lady lysa arryn"],
+        "father": ["lord baelish"],
+        "mother": ["alayne"],
+        "sibling": []
+    },
+    "varys": { "link": "https://awoiaf.westeros.org/index.php/Varys", "name": "Varys" },
+    "eddard stark": {
+        "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark",
+        "name": "Eddard Stark",
+        "spouse": ["lady catelyn tully"],
+        "father": ["lord rickard stark"],
+        "mother": ["lady lyarra stark"],
+        "sibling": []
+    },
+    "melisandre": {
+        "link": "https://awoiaf.westeros.org/index.php/Melisandre",
+        "name": "Melisandre"
+    },
+    "robb stark": {
+        "link": "https://awoiaf.westeros.org/index.php/Robb_Stark",
+        "name": "Robb Stark",
+        "father": ["eddard stark"],
+        "mother": ["catelyn tully"],
+        "sibling": ["rickon stark"]
+    },
+    "high sparrow": {
+        "link": "https://awoiaf.westeros.org/index.php/High_Sparrow",
+        "name": "High Sparrow"
+    },
+    "euron greyjoy": {
+        "link": "https://awoiaf.westeros.org/index.php/Euron_Greyjoy",
+        "name": "Euron Greyjoy",
+        "father": ["lord quellon greyjoy"],
+        "mother": ["lady sunderly"],
+        "sibling": [
+            "victarion greyjoy",
+            "aeron greyjoy",
+            "balon greyjoy",
+            "donel greyjoy",
+            "harlon greyjoy",
+            "quenton greyjoy",
+            "urrigon greyjoy"
+        ]
+    },
+    "jaqen h'ghar": {
+        "link": "https://awoiaf.westeros.org/index.php/Jaqen_H%27ghar",
+        "name": "Jaqen H'ghar"
+    },
+    "gregor clegane": {
+        "link": "https://awoiaf.westeros.org/index.php/Gregor_Clegane",
+        "name": "Gregor Clegane",
+        "spouse": [],
+        "father": ["clegane (father of gregor and sandor)"],
+        "sibling": ["sandor clegane"]
+    },
+    "brienne tarth": {
+        "link": "https://awoiaf.westeros.org/index.php/Brienne_Tarth",
+        "name": "Brienne Tarth",
+        "father": ["lord selwyn tarth"],
+        "sibling": []
+    },
+    "sandor clegane": {
+        "link": "https://awoiaf.westeros.org/index.php/Sandor_Clegane",
+        "name": "Sandor Clegane",
+        "father": ["clegane (father of gregor and sandor)"],
+        "sibling": ["gregor clegane"]
+    }
+}

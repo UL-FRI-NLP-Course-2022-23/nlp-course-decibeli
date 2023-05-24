@@ -1,7 +1,9 @@
 from utils import (
     Book,
+    parse_gt_relationships,
     parse_predicted_relationships,
     RELATIONSHIP,
+    read_json,
     substring_in_array,
     gt_relationships,
 )
@@ -140,14 +142,44 @@ def f1(tp, fp, fn):
     return 2 * tp / (2 * tp + fp + fn)
 
 
+def ground_truth_relations_num(filename: str):
+    gt = read_json(filename)
+    rels_num = 0
+    for character in gt:
+        if "spouse" in gt[character]:
+            rels_num += len(gt[character]["spouse"])
+        if "father" in gt[character]:
+            rels_num += len(gt[character]["father"])
+        if "mother" in gt[character]:
+            rels_num += len(gt[character]["mother"])
+        if "sibling" in gt[character]:
+            rels_num += len(gt[character]["sibling"])
+        if "children" in gt[character]:
+            rels_num += len(gt[character]["children"])
+
+    return rels_num
+
+
 if __name__ == "__main__":
-    gt = gt_relationships(Book.A_GAME_OF_THRONES.value["title"])
-    # gt = parse_gt_relationships()
-    predicted = parse_predicted_relationships()
+    gt = read_json("data/gt_relationships_top25.json")
+    predicted_book1 = parse_predicted_relationships(
+        "data/triplets/family_triplets_luke_got1.csv"
+    )
+    predicted_book5 = parse_predicted_relationships(
+        "data/triplets/family_triplets_luke_got5.csv"
+    )
 
-    tp, fp, fn = eval_relationship(gt, predicted)
-    print(f"TP: {tp}, FP: {fp}, FN: {fn}\n------------------")
+    predicted = predicted_book1 + predicted_book1
+    # Remove duplicates
+    predicted = list(dict.fromkeys(predicted))
 
-    print(f"Precision: {precision(tp, fp)}")
-    print(f"Recall: {recall(tp, fn)}")
-    print(f"F1: {f1(tp, fp, fn)}")
+    print(len(predicted))
+
+    print(ground_truth_relations_num("data/gt_relationships_top25.json"))
+
+    # tp, fp, fn = eval_relationship(gt, predicted)
+    # print(f"TP: {tp}, FP: {fp}, FN: {fn}\n------------------")
+
+    # print(f"Precision: {precision(tp, fp)}")
+    # print(f"Recall: {recall(tp, fn)}")
+    # print(f"F1: {f1(tp, fp, fn)}")
