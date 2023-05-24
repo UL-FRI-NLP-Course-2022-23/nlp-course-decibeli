@@ -173,8 +173,6 @@ if __name__ == "__main__":
     # Remove duplicates
     predicted = list(dict.fromkeys(predicted))
 
-    print(len(predicted))
-
     print(ground_truth_relations_num("data/gt_relationships_top25.json"))
 
     # tp, fp, fn = eval_relationship(gt, predicted)

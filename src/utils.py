@@ -323,13 +323,11 @@ def parse_predicted_relationships(filename: str):
 
         chars_rels.append((char_key, relationship_name, rel_to))
 
-        # if char_key not in chars_rels:
-        #     chars_rels[char_key] = {}
-
-        # if relationship_name not in chars_rels[char_key]:
-        #     chars_rels[char_key][relationship_name] = [row[2].lower()]
-        # else:
-        #     chars_rels[char_key][relationship_name].append(row[2].lower())
+        # add reversed relationship
+        if relationship_name == "parents":
+            chars_rels.append((rel_to, "children", char_key))
+        elif relationship_name == "children":
+            chars_rels.append((rel_to, "parents", char_key))
 
     return chars_rels
 
