@@ -323,7 +323,6 @@ def parse_predicted_relationships():
         # if char_key not in chars_rels:
         #     chars_rels[char_key] = {}
 
-
         # if relationship_name not in chars_rels[char_key]:
         #     chars_rels[char_key][relationship_name] = [row[2].lower()]
         # else:
@@ -411,3 +410,22 @@ def convert_enum_keys_to_string(data):
         return new_list
     else:
         return data
+
+
+def filter_top_characters(top_characters_filename: str):
+    with open(top_characters_filename, "r") as fp:
+        lines = fp.read().split("\n")
+
+    print(lines)
+    all_chars = read_json(DATA_PATH)
+    filtered_chars = {}
+
+    for line in lines:
+        if line in all_chars:
+            filtered_chars[line] = all_chars[line]
+
+    with open("data/character_data_top25.json", "w+") as fp:
+        json.dump(filtered_chars, fp)
+
+
+filter_top_characters("data/top25_characters.txt")

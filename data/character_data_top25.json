@@ -1,0 +1,2018 @@
+{
+    "Cersei Lannister": {
+        "link": " https://awoiaf.westeros.org/index.php/Cersei_Lannister",
+        "Titles": {
+            "values": [
+                "Light of the West",
+                "Queen Dowager",
+                "Protector of the Realm",
+                "Lady of Casterly Rock",
+                "Shield of Lannisport",
+                "Queen Regent"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Light_of_the_West",
+                "",
+                "https://awoiaf.westeros.org/index.php/Protector_of_the_Realm",
+                "https://awoiaf.westeros.org/index.php/Lady_of_Casterly_Rock",
+                "https://awoiaf.westeros.org/index.php/Shield_of_Lannisport",
+                "https://awoiaf.westeros.org/index.php/Regent"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Lannister", "House Baratheon of King's Landing"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Lannister",
+                "https://awoiaf.westeros.org/index.php/House_Baratheon_of_King%27s_Landing"
+            ]
+        },
+        "Predecessors": {
+            "values": [
+                "Rhaella Targaryen (queen consort)",
+                "Eddard Stark (Protector of the Realm)",
+                "Joffrey Baratheon (Protector of the Realm)",
+                "Tywin Lannister (Lord of Casterly Rock)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Rhaella_Targaryen",
+                "https://awoiaf.westeros.org/index.php/Eddard_Stark",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+            ]
+        },
+        "Successors": {
+            "values": [
+                "Joffrey Baratheon (Protector of the Realm)",
+                "Kevan Lannister (Protector of the Realm)",
+                "Margaery Tyrell (queen consort)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Kevan_Lannister",
+                "https://awoiaf.westeros.org/index.php/Margaery_Tyrell"
+            ]
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westermen"
+        },
+        "Born": {
+            "value": "In 266 AC, Casterly Rock",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_266_After_the_Conquest"
+        },
+        "Father": {
+            "value": "Lord Tywin Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+        },
+        "Mother": {
+            "value": "Lady Joanna Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Joanna_Lannister"
+        },
+        "Spouse": {
+            "value": "King Robert I Baratheon",
+            "link": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon"
+        },
+        "Lovers": {
+            "values": [
+                "Ser Jaime Lannister",
+                "Ser Lancel Lannister",
+                "Ser Osmund Kettleblack",
+                "Ser Osfryd Kettleblack",
+                "Ser Osney Kettleblack",
+                "Lady Taena Merryweather"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister",
+                "https://awoiaf.westeros.org/index.php/Lancel_Lannister",
+                "https://awoiaf.westeros.org/index.php/Osmund_Kettleblack",
+                "https://awoiaf.westeros.org/index.php/Osfryd_Kettleblack",
+                "https://awoiaf.westeros.org/index.php/Osney_Kettleblack",
+                "https://awoiaf.westeros.org/index.php/Taena_of_Myr"
+            ]
+        },
+        "Issue": {
+            "values": [
+                "Prince Joffrey Baratheon",
+                "Princess Myrcella Baratheon",
+                "Prince Tommen Baratheon"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Myrcella_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
+            ]
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (POV)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (POV)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Lena Headey\nNell Williams (young)",
+            "link": "http://en.wikipedia.org/wiki/Lena_Headey"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Arya Stark": {
+        "link": " https://awoiaf.westeros.org/index.php/Arya_Stark",
+        "Aliases": {
+            "values": [
+                "Arya Horseface",
+                "Arya Underfoot",
+                "Arry",
+                "Lumpyhead",
+                "Lumpyface",
+                "Stickboy",
+                "Rabbitkiller",
+                "Weasel",
+                "The ghost in Harrenhal",
+                "Nymeria",
+                "Nan",
+                "Squab",
+                "Squirrel",
+                "Wolf girl",
+                "Salty",
+                "Cat of the Canals",
+                "Blind Beth",
+                "The blind girl",
+                "The night wolf",
+                "The ugly girl",
+                "Mercedene",
+                "Mercy"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Ragot22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-7",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-9",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Rasos17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-10",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-12",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-13",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-14",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-15",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-15",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-15",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Radwd64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-16",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Mercy-17",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark#cite_note-Mercy-17"
+            ]
+        },
+        "Titles": {
+            "values": ["Princess", "Acolyte", "Lady of Winterfell (allegedly)"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Prince",
+                "",
+                "https://awoiaf.westeros.org/index.php/Winterfell"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Stark", "Faceless Men"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Stark",
+                "https://awoiaf.westeros.org/index.php/Faceless_Men"
+            ]
+        },
+        "Culture": {
+            "value": "Northmen",
+            "link": "https://awoiaf.westeros.org/index.php/Northmen"
+        },
+        "Born": {
+            "value": "In 289 AC (age 11), Winterfell",
+            "link": "https://awoiaf.westeros.org/index.php/289_AC"
+        },
+        "Father": {
+            "value": "Lord Eddard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+        },
+        "Mother": {
+            "value": "Lady Catelyn Tully",
+            "link": "https://awoiaf.westeros.org/index.php/Catelyn_Tully"
+        },
+        "Spouse": {
+            "value": "Lord Ramsay Bolton (allegedly)",
+            "link": "https://awoiaf.westeros.org/index.php/Ramsay_Snow"
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (appendix)",
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (POV)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (POV)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Maisie Williams",
+            "link": "https://awoiaf.westeros.org/index.php/List_of_actors_of_the_televised_series#Maisie_Williams.2C_Arya_Stark"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Jaime Lannister": {
+        "link": " https://awoiaf.westeros.org/index.php/Jaime_Lannister",
+        "Aliases": {
+            "values": [
+                "Kingslayer",
+                "The Lion of Lannister",
+                "The golden man",
+                "Cripple",
+                "The Young Lion",
+                "Goldenhand"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister#cite_note-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5"
+            ]
+        },
+        "Titles": {
+            "values": ["Ser", "Warden of the East (formerly)", "Lord Commander of the Kingsguard"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Knight",
+                "https://awoiaf.westeros.org/index.php/Warden_of_the_East",
+                "https://awoiaf.westeros.org/index.php/Lord_Commander_of_the_Kingsguard"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Lannister", "Kingsguard"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Lannister",
+                "https://awoiaf.westeros.org/index.php/Kingsguard"
+            ]
+        },
+        "Predecessors": {
+            "values": [
+                "Jon Arryn (Warden of the East)",
+                "Barristan Selmy (Lord Commander of the Kingsguard)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Jon_Arryn",
+                "https://awoiaf.westeros.org/index.php/Barristan_Selmy"
+            ]
+        },
+        "Successor": {
+            "value": "Robert Arryn (Warden of the East)",
+            "link": "https://awoiaf.westeros.org/index.php/Robert_Arryn"
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westerlands#People_and_Economy"
+        },
+        "Born": {
+            "value": "In 266 AC, Casterly Rock",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_266_After_the_Conquest"
+        },
+        "Father": {
+            "value": "Lord Tywin Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+        },
+        "Mother": {
+            "value": "Lady Joanna Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Joanna_Lannister"
+        },
+        "Lover": {
+            "value": "Queen Cersei Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
+        },
+        "Issue": {
+            "values": [
+                "Unrecognized bastards:",
+                "Prince Joffrey Baratheon",
+                "Princess Myrcella Baratheon",
+                "Prince Tommen Baratheon"
+            ],
+            "links": [
+                "",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Myrcella_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
+            ]
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (POV)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Nikolaj Coster-Waldau",
+            "link": "http://en.wikipedia.org/wiki/Nikolaj_Coster-Waldau"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Joffrey Baratheon": {
+        "link": " https://awoiaf.westeros.org/index.php/Joffrey_Baratheon",
+        "Reign": {
+            "value": "298 AC - 300 AC",
+            "link": "https://awoiaf.westeros.org/index.php/298_AC"
+        },
+        "Full name": { "value": "Joffrey Baratheon the First of His Name", "link": "" },
+        "Titles": {
+            "values": [
+                "King of the Andals, the Rhoynar, and the First Men",
+                "Lord of the Seven Kingdoms",
+                "Protector of the Realm",
+                "Lord of Storm's End (claimant)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/King_of_the_Andals,_the_Rhoynar,_and_the_First_Men",
+                "https://awoiaf.westeros.org/index.php/Lord_of_the_Seven_Kingdoms",
+                "https://awoiaf.westeros.org/index.php/Protector_of_the_Realm",
+                "https://awoiaf.westeros.org/index.php/Lord_of_Storm%27s_End"
+            ]
+        },
+        "Predecessor": {
+            "value": "Robert I Baratheon",
+            "link": "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon"
+        },
+        "Heir": {
+            "value": "Tommen Baratheon (heir presumptive)",
+            "link": "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
+        },
+        "Successor": {
+            "value": "Tommen I Baratheon",
+            "link": "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
+        },
+        "Aliases": {
+            "values": [
+                "Joff",
+                "Joffrey the Illborn",
+                "Robert the Second",
+                "Aerys the Third",
+                "Joffy",
+                "The Young Usurper",
+                "Joffrey-called-Baratheon",
+                "The boy king"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon#cite_note-Mercy-7"
+            ]
+        },
+        "Born": {
+            "value": "In 286 AC, at King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_286_After_the_Conquest"
+        },
+        "Died": {
+            "value": "In the first day of 300 AC (aged 13), at Red Keep, King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/300_AC"
+        },
+        "Dynasty": {
+            "value": "House Baratheon of King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/House_Baratheon_of_King%27s_Landing"
+        },
+        "Queen": {
+            "value": "Margaery Tyrell",
+            "link": "https://awoiaf.westeros.org/index.php/Margaery_Tyrell"
+        },
+        "Fathers": {
+            "values": ["Robert I Baratheon (legally)", "Jaime Lannister (biologically)"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister"
+            ]
+        },
+        "Mother": {
+            "value": "Cersei Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
+        },
+        "Personal arms": {
+            "value": "A black crowned stag and a gold lion, combatant, on a per pale gold and crimson field\n(Per pale or and gules, a stag, crowned, sable and a lion of the first combatant)",
+            "link": ""
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Jack Gleeson",
+            "link": "https://awoiaf.westeros.org/index.php/List_of_actors_of_the_televised_series#Jack_Gleeson.2CJoffrey_Baratheon"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Tyrion Lannister": {
+        "link": " https://awoiaf.westeros.org/index.php/Tyrion_Lannister",
+        "Aliases": {
+            "values": [
+                "The Imp",
+                "Halfman",
+                "Boyman",
+                "Giant of Lannister",
+                "Lord Imp",
+                "Lord Tywin's Doom",
+                "Lord Tywin's Bane",
+                "Yollo",
+                "Hugor Hill",
+                "Hugor Halfwit",
+                "No-Nose",
+                "Freak",
+                "Redhands",
+                "Ser Imp",
+                "Monkey demon",
+                "The Bloody Hand",
+                "The demonic dwarf"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-7",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-9",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-9",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-10",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-11",
+                "",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-12",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Radwd40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-13",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-14",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Mercy-15",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Mercy-15"
+            ]
+        },
+        "Titles": {
+            "values": [
+                "Acting Hand of the King (formerly)",
+                "Master of coin (formerly)",
+                "Lord of Casterly Rock (claimant)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Hand_of_the_King",
+                "https://awoiaf.westeros.org/index.php/Master_of_coin",
+                "https://awoiaf.westeros.org/index.php/Lord_of_Casterly_Rock"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Lannister", "Second Sons"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Lannister",
+                "https://awoiaf.westeros.org/index.php/Second_Sons"
+            ]
+        },
+        "Predecessor": {
+            "value": "Petyr Baelish (master of coin)",
+            "link": "https://awoiaf.westeros.org/index.php/Petyr_Baelish"
+        },
+        "Successor": {
+            "value": "Gyles Rosby (master of coin)",
+            "link": "https://awoiaf.westeros.org/index.php/Gyles_Rosby"
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westermen"
+        },
+        "Born": {
+            "value": "In 273 AC, Casterly Rock",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_273_After_the_Conquest"
+        },
+        "Father": {
+            "value": "Lord Tywin Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+        },
+        "Mother": {
+            "value": "Lady Joanna Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Joanna_Lannister"
+        },
+        "Spouses": {
+            "values": ["1st: Tysha (annulled)", "2nd: Sansa Stark"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Tysha",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark"
+            ]
+        },
+        "Lover": { "value": "Shae", "link": "https://awoiaf.westeros.org/index.php/Shae" },
+        "Personal arms": {
+            "value": "A golden hand in a circle of golden lions on red\n(Gules, a hand or, environed by lions or)",
+            "link": "https://awoiaf.westeros.org/index.php/Tyrion_Lannister#cite_note-Racok59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-18"
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (POV)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Peter Dinklage",
+            "link": "http://en.wikipedia.org/wiki/Peter_Dinklage"
+        },
+        "TV series": {
+            "value": "Game of Thrones:\n1 | 2 | 3 | 4 | 5 | 6 | 7 | 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Bran Stark": {
+        "link": " https://awoiaf.westeros.org/index.php/Bran_Stark",
+        "Aliases": {
+            "values": ["Brandon", "Bran the Broken", "The winged wolf"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Bran_Stark#cite_note-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Bran_Stark#cite_note-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Bran_Stark#cite_note-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3"
+            ]
+        },
+        "Title": {
+            "value": "Prince of Winterfell",
+            "link": "https://awoiaf.westeros.org/index.php/Prince_of_Winterfell"
+        },
+        "Allegiance": {
+            "value": "House Stark",
+            "link": "https://awoiaf.westeros.org/index.php/House_Stark"
+        },
+        "Culture": {
+            "value": "Northmen",
+            "link": "https://awoiaf.westeros.org/index.php/Northmen"
+        },
+        "Born": {
+            "value": "In 290 AC (age 9), Winterfell",
+            "link": "https://awoiaf.westeros.org/index.php/290_AC"
+        },
+        "Father": {
+            "value": "Lord Eddard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+        },
+        "Mother": {
+            "value": "Lady Catelyn Tully",
+            "link": "https://awoiaf.westeros.org/index.php/Catelyn_Stark"
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (appears)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Isaac Hempstead Wright",
+            "link": "http://en.wikipedia.org/wiki/Isaac_Hempstead_Wright"
+        },
+        "TV series": {
+            "value": "Game of Thrones: 1 | 2 | 3 | 4 | 6 | 7 | 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Daenerys Targaryen": {
+        "link": " https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
+        "Reign": {
+            "value": "298 AC - Present",
+            "link": "https://awoiaf.westeros.org/index.php/298_AC"
+        },
+        "Full name": { "value": "Daenerys Targaryen the First of Her Name", "link": "" },
+        "Titles": {
+            "values": [
+                "Princess of Dragonstone",
+                "Queen of the Seven Kingdoms",
+                "Daenerys Stormborn, the Unburnt, Queen of Meereen, Queen of the Andals and the Rhoynar and the First Men, Khaleesi of Great Grass Sea, Breaker of Shackles, and Mother of Dragons",
+                "Lord of the Seven Kingdoms",
+                "Protector of the Realm"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Prince_of_Dragonstone",
+                "https://awoiaf.westeros.org/index.php/Kingship",
+                "https://awoiaf.westeros.org/index.php/King_of_Meereen",
+                "https://awoiaf.westeros.org/index.php/Lord_of_the_Seven_Kingdoms",
+                "https://awoiaf.westeros.org/index.php/Protector_of_the_Realm"
+            ]
+        },
+        "Predecessor": {
+            "value": "Prince Viserys Targaryen (as head of House Targaryen)",
+            "link": "https://awoiaf.westeros.org/index.php/Viserys_Targaryen"
+        },
+        "Aliases": {
+            "values": [
+                "Dany",
+                "Silver Lady",
+                "The dragon's daughter",
+                "Dragonmother",
+                "Bride of fire",
+                "Daughter of death",
+                "Slayer of lies",
+                "Child of three",
+                "The whore of Westeros",
+                "Mhysa",
+                "The prince that was promised",
+                "The silver queen",
+                "Breaker of Chains",
+                "Aegon the Conqueror with teats",
+                "Azor Ahai returned",
+                "The dragon queen",
+                "The queen across the waters"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Ragot61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Ragot68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-7",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Westeros",
+                "https://awoiaf.westeros.org/index.php/Mhysa",
+                "https://awoiaf.westeros.org/index.php/The_prince_that_was_promised",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-13",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-14",
+                "https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen",
+                "https://awoiaf.westeros.org/index.php/Azor_Ahai",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-15",
+                "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen#cite_note-Radwdappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4"
+            ]
+        },
+        "Born": {
+            "value": "In 284 AC, at Dragonstone",
+            "link": "https://awoiaf.westeros.org/index.php/284_AC"
+        },
+        "Race": { "value": "Valyrian", "link": "https://awoiaf.westeros.org/index.php/Valyria" },
+        "Cultures": {
+            "values": ["Free Cities", "Dothraki", "Ghiscari"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Free_Cities",
+                "https://awoiaf.westeros.org/index.php/Dothraki",
+                "https://awoiaf.westeros.org/index.php/Ghiscari"
+            ]
+        },
+        "Dynasty": {
+            "value": "House Targaryen",
+            "link": "https://awoiaf.westeros.org/index.php/House_Targaryen"
+        },
+        "Consorts": {
+            "values": ["1st: Khal Drogo", "2nd: Hizdahr zo Loraq"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Khal",
+                "https://awoiaf.westeros.org/index.php/Hizdahr_zo_Loraq"
+            ]
+        },
+        "Issue": {
+            "value": "Rhaego (stillborn)",
+            "link": "https://awoiaf.westeros.org/index.php/Rhaego"
+        },
+        "Father": {
+            "value": "King Aerys II Targaryen",
+            "link": "https://awoiaf.westeros.org/index.php/Aerys_II_Targaryen"
+        },
+        "Mother": {
+            "value": "Queen Rhaella Targaryen",
+            "link": "https://awoiaf.westeros.org/index.php/Rhaella_Targaryen"
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (appendix)",
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Emilia Clarke",
+            "link": "http://en.wikipedia.org/wiki/Emilia_Clarke"
+        },
+        "TV series": {
+            "value": "Game of Thrones: Season 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Sansa Stark": {
+        "link": " https://awoiaf.westeros.org/index.php/Sansa_Stark",
+        "Aliases": {
+            "values": ["Wolf girl", "Little bird", "Jonquil", "Alayne Stone", "Lady Lannister"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark#cite_note-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark#cite_note-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark#cite_note-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark#cite_note-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark#cite_note-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5"
+            ]
+        },
+        "Title": { "value": "Princess", "link": "https://awoiaf.westeros.org/index.php/Prince" },
+        "Allegiances": {
+            "values": [
+                "House Stark",
+                "House Lannister (through marriage)",
+                "House Arryn (as Alayne Stone)",
+                "House Baelish (as Alayne Stone)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Stark",
+                "https://awoiaf.westeros.org/index.php/House_Lannister",
+                "https://awoiaf.westeros.org/index.php/House_Arryn",
+                "https://awoiaf.westeros.org/index.php/House_Baelish"
+            ]
+        },
+        "Culture": {
+            "value": "Northmen",
+            "link": "https://awoiaf.westeros.org/index.php/Northmen"
+        },
+        "Born": {
+            "value": "In 286 AC (age 13), Winterfell",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_286_After_the_Conquest"
+        },
+        "Father": {
+            "value": "Lord Eddard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+        },
+        "Mother": {
+            "value": "Lady Catelyn Tully",
+            "link": "https://awoiaf.westeros.org/index.php/Catelyn_Tully"
+        },
+        "Spouse": {
+            "value": "Tyrion Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Tyrion_Lannister"
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (POV)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (POV)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Sophie Turner",
+            "link": "https://awoiaf.westeros.org/index.php/List_of_actors_of_the_televised_series#Sophie_Turner.2CSansa_Stark"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Jon Snow": {
+        "link": " https://awoiaf.westeros.org/index.php/Jon_Snow",
+        "Aliases": {
+            "values": [
+                "Lord Snow",
+                "Ser Alliser's bane",
+                "The Snow of Winterfell",
+                "The crow-come-over",
+                "The Bastard of Winterfell",
+                "The Black Bastard of the Wall",
+                "Lord Crow"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow#cite_note-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6"
+            ]
+        },
+        "Title": {
+            "value": "Lord Commander of the Night's Watch",
+            "link": "https://awoiaf.westeros.org/index.php/Lord_Commander_of_the_Night%27s_Watch"
+        },
+        "Allegiances": {
+            "values": ["House Stark", "Night's Watch"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Stark",
+                "https://awoiaf.westeros.org/index.php/Night%27s_Watch"
+            ]
+        },
+        "Predecessor": {
+            "value": "Jeor Mormont",
+            "link": "https://awoiaf.westeros.org/index.php/Jeor_Mormont"
+        },
+        "Culture": {
+            "value": "Northmen",
+            "link": "https://awoiaf.westeros.org/index.php/North#People"
+        },
+        "Born": { "value": "In 283 AC", "link": "https://awoiaf.westeros.org/index.php/283_AC" },
+        "Father": {
+            "value": "Lord Eddard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+        },
+        "Mothers": {
+            "values": [
+                "Wylla (supposedly)",
+                "Ashara Dayne (rumored)",
+                "Fisherman's daughter (rumored)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Wylla",
+                "https://awoiaf.westeros.org/index.php/Ashara_Dayne",
+                ""
+            ]
+        },
+        "Lover": { "value": "Ygritte", "link": "https://awoiaf.westeros.org/index.php/Ygritte" },
+        "Personal arms": {
+            "value": "A running white direwolf on a grey field\n(Cendre, a direwolf courant argent)",
+            "link": ""
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (POV)",
+                "A Storm of Swords (POV)",
+                "A Feast for Crows (appears)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Kit Harington",
+            "link": "http://en.wikipedia.org/wiki/Kit_Harington"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Robert I Baratheon": {
+        "link": " https://awoiaf.westeros.org/index.php/Robert_I_Baratheon",
+        "Reign": { "value": "283-298 AC", "link": "https://awoiaf.westeros.org/index.php/283_AC" },
+        "Full name": { "value": "Robert Baratheon the First of His Name", "link": "" },
+        "Titles": {
+            "values": [
+                "Ser",
+                "Lord Paramount of the Stormlands (granted to Renly)",
+                "Lord of Storm's End (granted to Renly)",
+                "King of the Andals, the Rhoynar, and the First Men",
+                "Lord of the Seven Kingdoms",
+                "Protector of the Realm"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Knight",
+                "https://awoiaf.westeros.org/index.php/Lord_Paramount_of_the_Stormlands",
+                "https://awoiaf.westeros.org/index.php/Lord_of_Storm%27s_End",
+                "https://awoiaf.westeros.org/index.php/King_of_the_Andals,_the_Rhoynar,_and_the_First_Men",
+                "https://awoiaf.westeros.org/index.php/Lord_of_the_Seven_Kingdoms",
+                "https://awoiaf.westeros.org/index.php/Protector_of_the_Realm"
+            ]
+        },
+        "Predecessor": {
+            "value": "Aerys II Targaryen",
+            "link": "https://awoiaf.westeros.org/index.php/Aerys_II_Targaryen"
+        },
+        "Heirs": {
+            "values": [
+                "1st: Stannis Baratheon (heir presumptive) (283-286 AC)",
+                "2nd: Joffrey Baratheon (286-298 AC)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Stannis_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
+            ]
+        },
+        "Successor": {
+            "value": "Joffrey I Baratheon",
+            "link": "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
+        },
+        "Aliases": {
+            "values": [
+                "The Usurper",
+                "Demon of the Trident",
+                "The Whoremonger King",
+                "Rob",
+                "The storm lord",
+                "The fat king"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Usurper",
+                "https://awoiaf.westeros.org/index.php/Battle_of_the_Trident",
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon#cite_note-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon#cite_note-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-7",
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon#cite_note-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon#cite_note-Mercy-10"
+            ]
+        },
+        "Born": {
+            "value": "In 262 AC, at Storm's End",
+            "link": "https://awoiaf.westeros.org/index.php/262_AC"
+        },
+        "Died": {
+            "value": "In 298 AC, at King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/298_AC"
+        },
+        "Dynasty": {
+            "value": "House Baratheon of King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/House_Baratheon_of_King%27s_Landing"
+        },
+        "Queen": {
+            "value": "Cersei Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
+        },
+        "Issue": {
+            "value": "Joffrey Baratheon (legally)\nMyrcella Baratheon (legally)\nTommen Baratheon (legally)\nBastards:\nMya Stone\nBella\nGendry\nEdric Storm\nUnknown twins\nBarra\nNine others",
+            "link": "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
+        },
+        "Father": {
+            "value": "Steffon Baratheon",
+            "link": "https://awoiaf.westeros.org/index.php/Steffon_Baratheon"
+        },
+        "Mother": {
+            "value": "Cassana Estermont",
+            "link": "https://awoiaf.westeros.org/index.php/Cassana_Estermont"
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (mentioned)",
+                "A Storm of Swords (mentioned)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": { "value": "Mark Addy", "link": "http://en.wikipedia.org/wiki/Mark_Addy" },
+        "TV series": {
+            "value": "Game of Thrones: Season 1",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Tywin Lannister": {
+        "link": " https://awoiaf.westeros.org/index.php/Tywin_Lannister",
+        "Aliases": {
+            "values": ["The great lion of the rock", "The old lion"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Tywin_Lannister#cite_note-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Tywin_Lannister#cite_note-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2"
+            ]
+        },
+        "Titles": {
+            "values": [
+                "Ser",
+                "Hand of the King",
+                "Lord of Casterly Rock",
+                "Shield of Lannisport",
+                "Warden of the West",
+                "Savior of the City"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Knight",
+                "https://awoiaf.westeros.org/index.php/Hand_of_the_King",
+                "https://awoiaf.westeros.org/index.php/Lord_of_Casterly_Rock",
+                "https://awoiaf.westeros.org/index.php/Shield_of_Lannisport",
+                "https://awoiaf.westeros.org/index.php/Warden_of_the_West",
+                "https://awoiaf.westeros.org/index.php/Savior_of_the_City"
+            ]
+        },
+        "Allegiance": {
+            "value": "House Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/House_Lannister"
+        },
+        "Predecessors": {
+            "values": [
+                "Tytos Lannister (Lord of Casterly Rock)",
+                "Edgar Sloane, later Eddard Stark (Hand of the King)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Tytos_Lannister",
+                "https://awoiaf.westeros.org/index.php/Edgar_Sloane"
+            ]
+        },
+        "Successors": {
+            "values": [
+                "Cersei Lannister (Lady of Casterly Rock)",
+                "Daven Lannister (Warden of the West)",
+                "Owen Merryweather, later Harys Swyft (Hand of the King)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Cersei_Lannister",
+                "https://awoiaf.westeros.org/index.php/Daven_Lannister",
+                "https://awoiaf.westeros.org/index.php/Owen_Merryweather"
+            ]
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westermen"
+        },
+        "Born": {
+            "value": "In 242 AC, Casterly Rock",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_242_After_the_Conquest"
+        },
+        "Died": {
+            "value": "In 300 AC, King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/300_AC"
+        },
+        "Father": {
+            "value": "Tytos Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Tytos_Lannister"
+        },
+        "Mother": {
+            "value": "Jeyne Marbrand",
+            "link": "https://awoiaf.westeros.org/index.php/Jeyne_Marbrand"
+        },
+        "Spouse": {
+            "value": "Lady Joanna Lannister",
+            "link": "https://awoiaf.westeros.org/index.php/Joanna_Lannister"
+        },
+        "Lover": { "value": "Shae", "link": "https://awoiaf.westeros.org/index.php/Shae" },
+        "Issue": {
+            "values": ["Cersei Lannister", "Jaime Lannister", "Tyrion Lannister"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Cersei_Lannister",
+                "https://awoiaf.westeros.org/index.php/Jaime_Lannister",
+                "https://awoiaf.westeros.org/index.php/Tyrion_Lannister"
+            ]
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Charles Dance",
+            "link": "http://en.wikipedia.org/wiki/Charles_Dance"
+        },
+        "TV series": {
+            "value": "Game of Thrones:\nSeason 1 | Season 2 | Season 3 | Season 4",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Petyr Baelish": {
+        "link": " https://awoiaf.westeros.org/index.php/Petyr_Baelish",
+        "Aliases": {
+            "values": ["Littlefinger", "Lord Littlefinger"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Petyr_Baelish#cite_note-Ragot8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Petyr_Baelish#cite_note-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2"
+            ]
+        },
+        "Titles": {
+            "values": [
+                "Lord",
+                "Master of coin (formerly)",
+                "Lord Paramount of the Trident",
+                "Lord of Harrenhal",
+                "Lord Protector of the Eyrie and the Vale of Arryn"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Lord",
+                "https://awoiaf.westeros.org/index.php/Master_of_coin",
+                "https://awoiaf.westeros.org/index.php/Lord_Paramount_of_the_Trident",
+                "https://awoiaf.westeros.org/index.php/Lord_of_Harrenhal",
+                "https://awoiaf.westeros.org/index.php/Lord_Protector_of_the_Eyrie_and_the_Vale_of_Arryn"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Baelish of the Fingers", "House Baelish of Harrenhal"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Baelish",
+                "https://awoiaf.westeros.org/index.php/House_Baelish_of_Harrenhal"
+            ]
+        },
+        "Predecessors": {
+            "values": [
+                "Baelish (head of House Baelish)",
+                "Qarlton Chelsted (master of coin)",
+                "Hoster Tully (Lord Paramount of the Trident)",
+                "Vargo Hoat (Lord of Harrenhal)",
+                "Lysa Arryn (Lady Regent of the Vale of Arryn)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Baelish_(lord)",
+                "https://awoiaf.westeros.org/index.php/Qarlton_Chelsted",
+                "https://awoiaf.westeros.org/index.php/Hoster_Tully",
+                "https://awoiaf.westeros.org/index.php/Vargo_Hoat",
+                "https://awoiaf.westeros.org/index.php/Lysa_Arryn"
+            ]
+        },
+        "Successor": {
+            "value": "Tyrion Lannister (master of coin)",
+            "link": "https://awoiaf.westeros.org/index.php/Tyrion_Lannister"
+        },
+        "Culture": { "value": "Valemen", "link": "https://awoiaf.westeros.org/index.php/Valemen" },
+        "Born": {
+            "value": "In 268 AC, the Fingers",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_268_After_the_Conquest"
+        },
+        "Father": {
+            "value": "Lord Baelish",
+            "link": "https://awoiaf.westeros.org/index.php/Baelish_(lord)"
+        },
+        "Mother": {
+            "value": "Alayne",
+            "link": "https://awoiaf.westeros.org/index.php/Alayne_Baelish"
+        },
+        "Spouse": {
+            "value": "Lady Lysa Arryn",
+            "link": "https://awoiaf.westeros.org/index.php/Lysa_Arryn"
+        },
+        "Personal arms": {
+            "value": "Mockingbirds on a field of green\n(Vert sem of mockingbirds proper)",
+            "link": ""
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (appears)",
+                "A Dance with Dragons (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": {
+            "value": "Aidan Gillen",
+            "link": "http://en.wikipedia.org/wiki/Aidan_Gillen"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Varys": {
+        "link": " https://awoiaf.westeros.org/index.php/Varys",
+        "Aliases": {
+            "values": [
+                "Lord Varys",
+                "The King's Spider",
+                "The eunuch",
+                "The Spider",
+                "Varys the Spider",
+                "Rugen",
+                "Lord Eunuch"
+            ],
+            "links": [
+                "",
+                "https://awoiaf.westeros.org/index.php/Varys#cite_note-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Varys#cite_note-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Varys#cite_note-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Varys#cite_note-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Rugen",
+                "https://awoiaf.westeros.org/index.php/Varys#cite_note-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5"
+            ]
+        },
+        "Titles": {
+            "values": ["Master of whisperers", "Undergaoler (as Rugen)"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Master_of_whisperers",
+                "https://awoiaf.westeros.org/index.php/Undergaoler"
+            ]
+        },
+        "Allegiance": {
+            "value": "House Targaryen (Aegon VI Targaryen faction)",
+            "link": "https://awoiaf.westeros.org/index.php/House_Targaryen"
+        },
+        "Successor": { "value": "Qyburn", "link": "https://awoiaf.westeros.org/index.php/Qyburn" },
+        "Born": { "value": "Lys", "link": "https://awoiaf.westeros.org/index.php/Lys" },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (appears)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": {
+            "value": "Conleth Hill",
+            "link": "http://en.wikipedia.org/wiki/Conleth_Hill"
+        },
+        "TV series": {
+            "value": "Season 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Eddard Stark": {
+        "link": " https://awoiaf.westeros.org/index.php/Eddard_Stark",
+        "Aliases": {
+            "values": ["Ned", "The quiet wolf", "The Ned"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Eddard_Stark#cite_note-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Eddard_Stark#cite_note-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Eddard_Stark#cite_note-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4"
+            ]
+        },
+        "Titles": {
+            "values": [
+                "Lord of Winterfell",
+                "Warden of the North",
+                "Hand of the King",
+                "Protector of the Realm",
+                "Lord Regent"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Lord_of_Winterfell",
+                "https://awoiaf.westeros.org/index.php/Warden_of_the_North",
+                "https://awoiaf.westeros.org/index.php/Hand_of_the_King",
+                "https://awoiaf.westeros.org/index.php/Protector_of_the_Realm",
+                "https://awoiaf.westeros.org/index.php/Regent"
+            ]
+        },
+        "Allegiance": {
+            "value": "House Stark",
+            "link": "https://awoiaf.westeros.org/index.php/House_Stark"
+        },
+        "Predecessors": {
+            "values": [
+                "Rickard Stark (Lord of Winterfell)",
+                "Jon Arryn (Hand of the King)",
+                "Robert I Baratheon (Protector of the Realm)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Rickard_Stark",
+                "https://awoiaf.westeros.org/index.php/Jon_Arryn",
+                "https://awoiaf.westeros.org/index.php/Robert_I_Baratheon"
+            ]
+        },
+        "Successors": {
+            "values": [
+                "Robb Stark (Lord of Winterfell)",
+                "Roose Bolton (Warden of the North)",
+                "Tywin Lannister (Hand of the King)",
+                "Cersei Lannister (Protector of the Realm)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Robb_Stark",
+                "https://awoiaf.westeros.org/index.php/Roose_Bolton",
+                "https://awoiaf.westeros.org/index.php/Tywin_Lannister",
+                "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
+            ]
+        },
+        "Culture": {
+            "value": "Northmen",
+            "link": "https://awoiaf.westeros.org/index.php/Northmen"
+        },
+        "Born": {
+            "value": "In 263 AC, Winterfell",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_263_After_the_Conquest"
+        },
+        "Died": {
+            "value": "In 299 AC (aged 36), Great Sept of Baelor, King's Landing",
+            "link": "https://awoiaf.westeros.org/index.php/299_AC"
+        },
+        "Father": {
+            "value": "Lord Rickard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Rickard_Stark"
+        },
+        "Mother": {
+            "value": "Lady Lyarra Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Lyarra_Stark"
+        },
+        "Spouse": {
+            "value": "Lady Catelyn Tully",
+            "link": "https://awoiaf.westeros.org/index.php/Catelyn_Stark"
+        },
+        "Lovers": {
+            "values": [
+                "Wylla (supposedly)",
+                "Ashara Dayne (rumored)",
+                "Fisherman's daughter (rumored)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Wylla",
+                "https://awoiaf.westeros.org/index.php/Ashara_Dayne",
+                ""
+            ]
+        },
+        "Issue": {
+            "values": [
+                "Robb Stark",
+                "Jon Snow",
+                "Sansa Stark",
+                "Arya Stark",
+                "Bran Stark",
+                "Rickon Stark"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Robb_Stark",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow",
+                "https://awoiaf.westeros.org/index.php/Sansa_Stark",
+                "https://awoiaf.westeros.org/index.php/Arya_Stark",
+                "https://awoiaf.westeros.org/index.php/Bran_Stark",
+                "https://awoiaf.westeros.org/index.php/Rickon_Stark"
+            ]
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (POV)",
+                "A Clash of Kings (mentioned)",
+                "A Storm of Swords (mentioned)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Sean Bean\nSebastian Croft (child)\nRobert Aramayo (young)",
+            "link": "http://en.wikipedia.org/wiki/Sean_Bean"
+        },
+        "TV series": {
+            "value": "Game of Thrones: 1 | 6 | 7",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Melisandre": {
+        "link": " https://awoiaf.westeros.org/index.php/Melisandre",
+        "Aliases": {
+            "values": ["The red woman", "Red witch", "The king's red shadow", "Lady Red", "Melony"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Melisandre#cite_note-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Melisandre#cite_note-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Melisandre#cite_note-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Melisandre#cite_note-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Melisandre#cite_note-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4"
+            ]
+        },
+        "Allegiance": {
+            "value": "Faith of R'hllor",
+            "link": "https://awoiaf.westeros.org/index.php/R%27hllor"
+        },
+        "Culture": { "value": "Asshai", "link": "https://awoiaf.westeros.org/index.php/Asshai" },
+        "Books": {
+            "values": [
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (POV)",
+                "The Winds of Winter (POV)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Carice van Houten",
+            "link": "http://en.wikipedia.org/wiki/Carice_van_Houten"
+        },
+        "TV series": {
+            "value": "Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_2"
+        }
+    },
+    "Robb Stark": {
+        "link": " https://awoiaf.westeros.org/index.php/Robb_Stark",
+        "Reign": { "value": "299 AC", "link": "https://awoiaf.westeros.org/index.php/299_AC" },
+        "Full name": { "value": "Robb Stark", "link": "" },
+        "Titles": {
+            "values": ["Lord of Winterfell", "King in the North", "King of the Trident"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Lord_of_Winterfell",
+                "https://awoiaf.westeros.org/index.php/King_in_the_North",
+                "https://awoiaf.westeros.org/index.php/King_of_the_Trident"
+            ]
+        },
+        "Heirs": {
+            "values": ["Bran Stark (believed dead)", "Jon Snow"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Bran_Stark",
+                "https://awoiaf.westeros.org/index.php/Jon_Snow"
+            ]
+        },
+        "Successors": {
+            "values": ["None", "Ramsay Bolton (as Lord of Winterfell)"],
+            "links": ["", "https://awoiaf.westeros.org/index.php/Ramsay_Snow"]
+        },
+        "Aliases": {
+            "values": [
+                "Robb the Lord",
+                "The wolfling",
+                "The Young Wolf",
+                "Wolf king",
+                "The pup",
+                "Robb the boy",
+                "The Boy Wolf",
+                "The King Who Lost the North"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-5",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-6",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-7",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-8",
+                "https://awoiaf.westeros.org/index.php/Robb_Stark#cite_note-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-9"
+            ]
+        },
+        "Born": {
+            "value": "In 283 AC, at Riverrun",
+            "link": "https://awoiaf.westeros.org/index.php/283_AC"
+        },
+        "Died": {
+            "value": "In 299 AC (aged 16), at The Twins",
+            "link": "https://awoiaf.westeros.org/index.php/299_AC"
+        },
+        "Dynasty": {
+            "value": "House Stark",
+            "link": "https://awoiaf.westeros.org/index.php/House_Stark"
+        },
+        "Queen": {
+            "value": "Jeyne Westerling",
+            "link": "https://awoiaf.westeros.org/index.php/Jeyne_Westerling"
+        },
+        "Father": {
+            "value": "Eddard Stark",
+            "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+        },
+        "Mother": {
+            "value": "Catelyn Tully",
+            "link": "https://awoiaf.westeros.org/index.php/Catelyn_Stark"
+        },
+        "Personal arms": {
+            "value": "A grey direwolf's head on an ice-white field (Argent, a direwolf's head cendre)",
+            "link": ""
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Richard Madden",
+            "link": "http://en.wikipedia.org/wiki/Richard_Madden"
+        },
+        "TV series": {
+            "value": "Game of Thrones: 1 | 2 | 3",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "High Sparrow": {
+        "link": " https://awoiaf.westeros.org/index.php/High_Sparrow",
+        "Titles": {
+            "values": [
+                "Septon",
+                "High Septon",
+                "Father of the Faithful",
+                "His High Holiness",
+                "Shepherd of the Faithful",
+                "Voice of the Seven on Earth"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Septon",
+                "https://awoiaf.westeros.org/index.php/High_Septon",
+                "https://awoiaf.westeros.org/index.php/Father_of_the_Faithful",
+                "https://awoiaf.westeros.org/index.php/His_High_Holiness",
+                "https://awoiaf.westeros.org/index.php/Shepherd_of_the_Faithful",
+                "https://awoiaf.westeros.org/index.php/Voice_of_the_Seven_on_Earth"
+            ]
+        },
+        "Allegiances": {
+            "values": ["Faith of the Seven", "Sparrows", "Faith Militant"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Faith_of_the_Seven",
+                "https://awoiaf.westeros.org/index.php/Sparrows",
+                "https://awoiaf.westeros.org/index.php/Faith_Militant"
+            ]
+        },
+        "Books": {
+            "values": ["A Feast for Crows (appears)", "A Dance with Dragons (appears)"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": {
+            "value": "Jonathan Pryce",
+            "link": "http://en.wikipedia.org/wiki/Jonathan_Pryce"
+        },
+        "TV series": {
+            "value": "Game of Thrones: Season 5 | Season 6",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Euron Greyjoy": {
+        "link": " https://awoiaf.westeros.org/index.php/Euron_Greyjoy",
+        "Reign": { "value": "299 AC-", "link": "https://awoiaf.westeros.org/index.php/299_AC" },
+        "Coronation": {
+            "value": "300 AC\nOld Wyk",
+            "link": "https://awoiaf.westeros.org/index.php/300_AC"
+        },
+        "Full name": {
+            "value": "Euron Greyjoy, the Third of His Name since the Grey King",
+            "link": ""
+        },
+        "Titles": {
+            "values": [
+                "Captain of the Silence",
+                "Iron King",
+                "King of the Isles and the North",
+                "King of Salt and Rock",
+                "Son of the Sea Wind",
+                "Lord Reaper of Pyke"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Silence",
+                "https://awoiaf.westeros.org/index.php/King_of_the_Iron_Islands",
+                "https://awoiaf.westeros.org/index.php/King_of_the_Isles_and_the_North",
+                "https://awoiaf.westeros.org/index.php/King_of_Salt_and_Rock",
+                "https://awoiaf.westeros.org/index.php/Son_of_the_Sea_Wind",
+                "https://awoiaf.westeros.org/index.php/Lord_Reaper_of_Pyke"
+            ]
+        },
+        "Predecessor": {
+            "value": "Balon IX Greyjoy",
+            "link": "https://awoiaf.westeros.org/index.php/Balon_Greyjoy"
+        },
+        "Heir": { "value": "None", "link": "" },
+        "Aliases": {
+            "values": ["Crow's Eye", "Euron Croweye", "Euron Crow's Eye", "The Crow's Eye"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Euron_Greyjoy#cite_note-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Euron_Greyjoy#cite_note-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Euron_Greyjoy#cite_note-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Euron_Greyjoy#cite_note-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3"
+            ]
+        },
+        "Born": {
+            "value": "In 256-268 AC, at Pyke",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_256_After_the_Conquest"
+        },
+        "Culture": {
+            "value": "Ironborn",
+            "link": "https://awoiaf.westeros.org/index.php/Ironborn"
+        },
+        "Dynasty": {
+            "value": "Greyjoy",
+            "link": "https://awoiaf.westeros.org/index.php/House_Greyjoy"
+        },
+        "Lover": {
+            "value": "Falia Flowers",
+            "link": "https://awoiaf.westeros.org/index.php/Falia_Flowers"
+        },
+        "Issue": {
+            "value": "At least three bastard sons",
+            "link": "https://awoiaf.westeros.org/index.php/Euron%27s_mongrel_sons"
+        },
+        "Father": {
+            "value": "Lord Quellon Greyjoy",
+            "link": "https://awoiaf.westeros.org/index.php/Quellon_Greyjoy"
+        },
+        "Mother": {
+            "value": "Lady Sunderly",
+            "link": "https://awoiaf.westeros.org/index.php/Lady_Sunderly_(wife_of_Quellon_Greyjoy)"
+        },
+        "Personal arms": {
+            "value": "A red eye with a black pupil beneath a black iron crown supported by two crows",
+            "link": ""
+        },
+        "Books": {
+            "values": [
+                "The World of Ice & Fire (mentioned)",
+                "A Game of Thrones (appendix)",
+                "A Clash of Kings (mentioned)",
+                "A Storm of Swords (mentioned)",
+                "A Feast for Crows (appears)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (appears)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/The_World_of_Ice_%26_Fire",
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Pilou Asbaek",
+            "link": "http://en.wikipedia.org/wiki/Pilou_Asb%C3%A6k"
+        },
+        "TV series": {
+            "value": "Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_6"
+        }
+    },
+    "Jaqen H'ghar": {
+        "link": " https://awoiaf.westeros.org/index.php/Jaqen_H%27ghar",
+        "Alias": {
+            "value": "Lorath",
+            "link": "https://awoiaf.westeros.org/index.php/Jaqen_H%27ghar#cite_note-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1"
+        },
+        "Allegiances": {
+            "values": ["House Lorch", "Brave Companions", "Faceless Men"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Lorch",
+                "https://awoiaf.westeros.org/index.php/Brave_Companions",
+                "https://awoiaf.westeros.org/index.php/Faceless_Men"
+            ]
+        },
+        "Culture": { "value": "Lorathi", "link": "https://awoiaf.westeros.org/index.php/Lorath" },
+        "Born": { "value": "Essos", "link": "https://awoiaf.westeros.org/index.php/Essos" },
+        "Books": {
+            "values": [
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (mentioned)",
+                "A Feast for Crows (appears)",
+                "A Dance with Dragons (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": {
+            "value": "Unidentified extra (Season 1)\nTom Wlaschiha (Season 2 - Season 6)\nPatrick O'Kane (as Jaqen's new face)",
+            "link": "http://en.wikipedia.org/wiki/Tom_Wlaschiha"
+        },
+        "TV series": {
+            "value": "Game of Thrones:\nSeason 1 | Season 2 | Season 5 | Season 6",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones"
+        }
+    },
+    "Gregor Clegane": {
+        "link": " https://awoiaf.westeros.org/index.php/Gregor_Clegane",
+        "Aliases": {
+            "values": [
+                "The Mountain That Rides",
+                "The Mountain",
+                "Lord Tywin's mad dog",
+                "The Enormity That Rides",
+                "The great dog"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Gregor_Clegane#cite_note-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Gregor_Clegane#cite_note-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Gregor_Clegane#cite_note-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Gregor_Clegane#cite_note-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3",
+                "https://awoiaf.westeros.org/index.php/Gregor_Clegane#cite_note-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-4"
+            ]
+        },
+        "Titles": {
+            "values": ["Ser", "Knight of Clegane's Keep"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Knight",
+                "https://awoiaf.westeros.org/index.php/Clegane%27s_Keep"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Clegane", "House Lannister"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Clegane",
+                "https://awoiaf.westeros.org/index.php/House_Lannister"
+            ]
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westermen"
+        },
+        "Born": {
+            "value": "In 265 AC or 266 AC",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_265_After_the_Conquest"
+        },
+        "Died": {
+            "value": "In 300 AC, the Red Keep",
+            "link": "https://awoiaf.westeros.org/index.php/300_AC"
+        },
+        "Father": {
+            "value": "Clegane (father of Gregor and Sandor)",
+            "link": "https://awoiaf.westeros.org/index.php/Clegane_(father_of_Gregor_and_Sandor)"
+        },
+        "Spouse": { "value": "Three unknown wives", "link": "" },
+        "Books": {
+            "values": [
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)",
+                "The Winds of Winter (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons",
+                "https://awoiaf.westeros.org/index.php/The_Winds_of_Winter"
+            ]
+        },
+        "Played by": {
+            "value": "Conan Stevens ~ Season 1\nIan Whyte ~ Season 2\nHaf\u00feor Julius Bjornsson ~ Season 4 - Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/List_of_actors_of_the_televised_series#Conan_Stevens.2C_Gregor_Clegane"
+        },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    },
+    "Brienne Tarth": {
+        "link": " https://awoiaf.westeros.org/index.php/Brienne_Tarth",
+        "Aliases": {
+            "values": [
+                "Brienne of Tarth",
+                "Brienne the Beauty",
+                "Brienne the Blue",
+                "Wench",
+                "The Maid of Tarth"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Brienne_of_Tarth#cite_note-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Brienne_of_Tarth#cite_note-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Brienne_of_Tarth#cite_note-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-1",
+                "https://awoiaf.westeros.org/index.php/Brienne_of_Tarth#cite_note-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Brienne_of_Tarth#cite_note-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3"
+            ]
+        },
+        "Allegiances": {
+            "values": [
+                "House Tarth",
+                "House Baratheon of Storm's End (formerly)",
+                "Rainbow Guard (formerly)",
+                "House Stark",
+                "House Tully",
+                "Brotherhood without banners"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Tarth",
+                "https://awoiaf.westeros.org/index.php/House_Baratheon",
+                "https://awoiaf.westeros.org/index.php/Rainbow_Guard",
+                "https://awoiaf.westeros.org/index.php/House_Stark",
+                "https://awoiaf.westeros.org/index.php/House_Tully",
+                "https://awoiaf.westeros.org/index.php/Brotherhood_without_banners"
+            ]
+        },
+        "Culture": {
+            "value": "Stormlander",
+            "link": "https://awoiaf.westeros.org/index.php/Stormlander"
+        },
+        "Born": {
+            "value": "In 280 AC, Evenfall Hall",
+            "link": "https://awoiaf.westeros.org/index.php/280_AC"
+        },
+        "Father": {
+            "value": "Lord Selwyn Tarth",
+            "link": "https://awoiaf.westeros.org/index.php/Selwyn_Tarth"
+        },
+        "Books": {
+            "values": [
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (POV)",
+                "A Dance with Dragons (appears)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": {
+            "value": "Gwendoline Christie",
+            "link": "http://en.wikipedia.org/wiki/Gwendoline_Christie"
+        },
+        "TV series": {
+            "value": "Season 2 | Season 3 | Season 4 | Season 5 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_2"
+        }
+    },
+    "Sandor Clegane": {
+        "link": " https://awoiaf.westeros.org/index.php/Sandor_Clegane",
+        "Aliases": {
+            "values": ["The Hound", "Dog", "Joffrey's dog"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/Hound",
+                "https://awoiaf.westeros.org/index.php/Sandor_Clegane#cite_note-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-2",
+                "https://awoiaf.westeros.org/index.php/Sandor_Clegane#cite_note-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D-3"
+            ]
+        },
+        "Allegiances": {
+            "values": ["House Clegane", "House Lannister (formerly)", "Kingsguard (formerly)"],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/House_Clegane",
+                "https://awoiaf.westeros.org/index.php/House_Lannister",
+                "https://awoiaf.westeros.org/index.php/Kingsguard"
+            ]
+        },
+        "Culture": {
+            "value": "Westermen",
+            "link": "https://awoiaf.westeros.org/index.php/Westermen"
+        },
+        "Born": {
+            "value": "In 270 AC or 271 AC",
+            "link": "https://awoiaf.westeros.org/index.php/Years_after_Aegon%27s_Conquest#Year_270_After_the_Conquest"
+        },
+        "Died": {
+            "value": "In 300 AC (supposedly)",
+            "link": "https://awoiaf.westeros.org/index.php/300_AC"
+        },
+        "Father": {
+            "value": "Clegane (father of Gregor and Sandor)",
+            "link": "https://awoiaf.westeros.org/index.php/Clegane_(father_of_Gregor_and_Sandor)"
+        },
+        "Books": {
+            "values": [
+                "A Game of Thrones (appears)",
+                "A Clash of Kings (appears)",
+                "A Storm of Swords (appears)",
+                "A Feast for Crows (mentioned)",
+                "A Dance with Dragons (mentioned)"
+            ],
+            "links": [
+                "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones",
+                "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings",
+                "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords",
+                "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows",
+                "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons"
+            ]
+        },
+        "Played by": { "value": "Rory McCann", "link": "http://en.wikipedia.org/wiki/Rory_McCann" },
+        "TV series": {
+            "value": "Season 1 | Season 2 | Season 3 | Season 4 | Season 6 | Season 7 | Season 8",
+            "link": "https://awoiaf.westeros.org/index.php/Game_of_Thrones_-_Season_1"
+        }
+    }
+}
