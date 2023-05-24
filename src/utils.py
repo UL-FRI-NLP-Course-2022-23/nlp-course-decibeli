@@ -100,6 +100,14 @@ def preprocess_book(book_txt: str, remove_chapter_title=False):
     book_txt = re.sub(r"[“”]", '"', book_txt)
     # Replace smart single quotes with normal single quotes
     book_txt = re.sub(r"[‘’]", "'", book_txt)
+    # Remove double quotes - optional
+    # book_txt = re.sub(r"[\"]", "", book_txt)
+    # Replace 'm, 're, 'll, 've, 'd with their base form
+    book_txt = re.sub(r"'m", " am", book_txt)
+    book_txt = re.sub(r"'re", " are", book_txt)
+    book_txt = re.sub(r"'ll", " will", book_txt)
+    book_txt = re.sub(r"'ve", " have", book_txt)
+    book_txt = re.sub(r"'d", " would", book_txt)
     # Replace '—' with normal '-'
     book_txt = re.sub(r"—", "-", book_txt)
     # Remove all occurances of '. . .'
