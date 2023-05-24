@@ -25,7 +25,7 @@ from coreference_resolution.neuralc import NeuralC
 from tqdm import tqdm
 
 
-def pipeline(book, coreference_filename: str = None):
+def pipeline(book, coreference_filename: str = None, remove_dialog=False):
     if coreference_filename == None:
         # Coreference resolution has to be done before relationship extraction
 
@@ -35,7 +35,7 @@ def pipeline(book, coreference_filename: str = None):
         book_txt = read_book(book_filename)
 
         # Preprocessing of the book (removing the contents at the start, appendix at the end, etc.)
-        book_txt = preprocess_book(book_txt, remove_chapter_title=False, remove_dialog=True)
+        book_txt = preprocess_book(book_txt, remove_chapter_title=False, remove_dialog=remove_dialog)
         # print(len(book_txt))
 
         # Replace aliases with character names (could also be done after Correference resloution?) - probably should replace also with titles?
@@ -85,4 +85,4 @@ def pipeline(book, coreference_filename: str = None):
 
 
 if __name__ == "__main__":
-    pipeline(Book.A_CLASH_OF_KINGS)
+    pipeline(Book.A_DANCE_WITH_DRAGONS, remove_dialog=True)
