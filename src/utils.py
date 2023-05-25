@@ -330,8 +330,8 @@ def parse_predicted_relationships(filename: str):
             chars_rels.append((rel_to, "parents", char_key))
         elif relationship_name == "spouse":
             chars_rels.append((rel_to, "spouse", char_key))
-        elif relationship_name == "sibling":
-            chars_rels.append((rel_to, "sibling", char_key))
+        elif relationship_name == "siblings":
+            chars_rels.append((rel_to, "siblings", char_key))
 
     return chars_rels
 
