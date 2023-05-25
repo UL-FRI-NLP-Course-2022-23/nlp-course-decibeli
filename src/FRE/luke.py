@@ -3,6 +3,8 @@ import sys
 
 sys.path.append("./src")
 from NER.ner_spacy import Ner_Spacy
+from NER.ner_stanza import Ner_Stanza
+from NER.ner_nltk import Ner_Nltk
 from transformers import AutoTokenizer, LukeForEntityPairClassification
 from FRE.family_rel_extractor import FamilyRelationExtractor
 import re
@@ -99,7 +101,7 @@ class LukeExtractor(FamilyRelationExtractor):
 
         return ixs
 
-    def __init__(self, relationship_words_filename: str):
+    def __init__(self, relationship_words_filename: str, ner="nltk"):
         super().__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(
             "studio-ousia/luke-large-finetuned-tacred"
@@ -107,7 +109,16 @@ class LukeExtractor(FamilyRelationExtractor):
         self.model = LukeForEntityPairClassification.from_pretrained(
             "studio-ousia/luke-large-finetuned-tacred"
         )
-        self.ner = Ner_Spacy()
+
+        if ner == "spacy":
+            self.ner = Ner_Spacy()
+        elif ner == "stanza":
+            self.ner = Ner_Stanza()
+        elif ner == "nltk":
+            self.ner = Ner_Nltk()
+        else:
+            raise Exception(f'Named Entity Recognizer "{ner}" not implemented')
+
         with open(relationship_words_filename) as fp:
             self.relationship_stop_words = [line.rstrip()[:-1] for line in fp]
         # self.relationship_stop_words = [

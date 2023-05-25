@@ -27,7 +27,7 @@ class Ner_Stanza:
             for sent in doc.sentences:
                 for ent in sent.ents:
                     if ent.type == 'PERSON':
-                        print(ent.text, ent.type)
+                        # print(ent.text, ent.type)
                         names_dict[ent.text] += 1
                     
         return names_dict
