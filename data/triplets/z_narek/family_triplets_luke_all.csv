@@ -1,0 +1,522 @@
+robert;siblings;stark stark
+stark stark;siblings;robert
+ser horas redwyne;siblings;ser meryn
+ser meryn;siblings;ser horas redwyne
+joffrey;parents;robert
+robert;children;joffrey
+aemon aemon targaryen;parents;maekar
+maekar;children;aemon aemon targaryen
+walder frey;parents;merrett
+merrett;children;walder frey
+walder;parents;merrett
+merrett;children;walder
+walder;spouse;crakehall
+crakehall;spouse;walder
+calon;parents;tomard
+tomard;children;calon
+aemon;parents;maekar
+maekar;children;aemon
+aemon targaryen;parents;maekar
+maekar;children;aemon targaryen
+catelyn;siblings;ser edmure tully
+ser edmure tully;siblings;catelyn
+edmure;siblings;catelyn
+catelyn;siblings;edmure
+shae;siblings;tysha
+tysha;siblings;shae
+stannis baratheon;children;devan
+devan;parents;stannis baratheon
+robb;siblings;jon snow
+jon snow;siblings;robb
+doreah;siblings;viserys
+viserys;siblings;doreah
+viserys;siblings;khal drogo
+khal drogo;siblings;viserys
+jason mallister;siblings;ser hosteen
+ser hosteen;siblings;jason mallister
+ser axell;children;shireen
+shireen;parents;ser axell
+aerys;siblings;jaime
+jaime;siblings;aerys
+ser rodrik;children;beth
+beth;parents;ser rodrik
+catelyn;parents;robert
+robert;children;catelyn
+brienne tarth;parents;selwyn
+selwyn;children;brienne tarth
+lady catelyn stark;children;robb
+robb;parents;lady catelyn stark
+gyles;spouse;lady ermesande
+lady ermesande;spouse;gyles
+stark;parents;joffrey
+joffrey;children;stark
+arya;siblings;meera
+meera;siblings;arya
+ilyn payne;children;joffrey
+joffrey;parents;ilyn payne
+hobber;siblings;sandor clegane
+sandor clegane;siblings;hobber
+jaime;siblings;sansa
+sansa;siblings;jaime
+jaime;children;catelyn
+catelyn;parents;jaime
+robert;siblings;brienne
+brienne;siblings;robert
+meera;siblings;jojen reed
+jojen reed;siblings;meera
+martyn rivers;siblings;ser perwyn
+ser perwyn;siblings;martyn rivers
+brienne;siblings;ser edmure tully
+ser edmure tully;siblings;brienne
+catelyn;siblings;robb
+robb;siblings;catelyn
+jalabhar xho;parents;lady tanda
+lady tanda;children;jalabhar xho
+joffrey;siblings;sansa stark
+sansa stark;siblings;joffrey
+horas redwyne;children;lollys
+lollys;parents;horas redwyne
+joffrey;parents;jaime
+jaime;children;joffrey
+aegon targaryen;parents;rhaegar
+rhaegar;children;aegon targaryen
+swann;children;balon
+balon;parents;swann
+stark stark;siblings;robb
+robb;siblings;stark stark
+catelyn;children;bran catelyn
+bran catelyn;parents;catelyn
+bran stark;parents;lord rickard
+lord rickard;children;bran stark
+robb;siblings;sansa
+sansa;siblings;robb
+ser meryn;siblings;robb
+robb;siblings;ser meryn
+ser loras;siblings;ser garlan tyrell
+ser garlan tyrell;siblings;ser loras
+grace;parents;robert
+robert;children;grace
+edwyle;parents;lord willam
+lord willam;children;edwyle
+rickard stark;parents;edwyle
+edwyle;children;rickard stark
+ser cleos;parents;emmon frey
+emmon frey;children;ser cleos
+tyrion;siblings;jaime
+jaime;siblings;tyrion
+vyman;children;catelyn
+catelyn;parents;vyman
+catelyn;siblings;lysa
+lysa;siblings;catelyn
+joffrey;spouse;margaery
+margaery;spouse;joffrey
+sansa;spouse;luthor
+luthor;spouse;sansa
+ser loras;spouse;sansa
+sansa;spouse;ser loras
+robb;siblings;joffrey
+joffrey;siblings;robb
+maekar;parents;viserys ii
+viserys ii;children;maekar
+robert baratheon;children;jaime
+jaime;parents;robert baratheon
+aegon;parents;rhaegar
+rhaegar;children;aegon
+catelyn;siblings;martyn rivers
+martyn rivers;siblings;catelyn
+walder frey;parents;ryman
+ryman;children;walder frey
+jon;siblings;arya
+arya;siblings;jon
+jon;children;munda
+munda;parents;jon
+aemon targaryen;siblings;queen naerys
+queen naerys;siblings;aemon targaryen
+tywin;parents;hullen
+hullen;children;tywin
+jaime lannister;parents;hullen
+hullen;children;jaime lannister
+samwell tarly;siblings;talla
+talla;siblings;samwell tarly
+lysa arryn;parents;hoster tully's
+hoster tully's;children;lysa arryn
+grace king;children;joffrey
+joffrey;parents;grace king
+willem;spouse;martynd
+martynd;spouse;willem
+joffrey;spouse;myrcella
+myrcella;spouse;joffrey
+robb;siblings;arya
+arya;siblings;robb
+ser imry;parents;ryam
+ryam;children;ser imry
+joffrey;siblings;tommen
+tommen;siblings;joffrey
+ygritte;siblings;gendel
+gendel;siblings;ygritte
+lady tanda's;children;sansa
+sansa;parents;lady tanda's
+lady janna fossoway;siblings;tyrell
+tyrell;siblings;lady janna fossoway
+gilly;parents;craster
+craster;children;gilly
+randa;siblings;matt
+matt;siblings;randa
+arya;parents;eddard stark
+eddard stark;children;arya
+catelyn;siblings;edmure-lord edmure
+edmure-lord edmure;siblings;catelyn
+rollam;siblings;ser raynald
+ser raynald;siblings;rollam
+ser kevan's;children;willem
+willem;parents;ser kevan's
+lothar;siblings;walder rivers
+walder rivers;siblings;lothar
+beth;parents;luwin
+luwin;children;beth
+ser rodrik's;children;beth
+beth;parents;ser rodrik's
+roslin;parents;lady bethany
+lady bethany;children;roslin
+edmure;siblings;lothar frey
+lothar frey;siblings;edmure
+daemon blackfyre;siblings;toyne
+toyne;siblings;daemon blackfyre
+edmure edmure tully;spouse;roslin frey
+roslin frey;spouse;edmure edmure tully
+harmen uller;siblings;ser ulwyck
+ser ulwyck;siblings;harmen uller
+jynessa;siblings;perros
+perros;siblings;jynessa
+gregor clegane;siblings;sandor clegane " sandor clegane
+sandor clegane " sandor clegane;siblings;gregor clegane
+eddard stark's;children;rickon
+rickon;parents;eddard stark's
+king jaehaerys;spouse;alysanne
+alysanne;spouse;king jaehaerys
+arya;siblings;wylla
+wylla;siblings;arya
+eddard stark;parents;robert
+robert;children;eddard stark
+bran stark;siblings;eddard stark
+eddard stark;siblings;bran stark
+galbart glover;children;robett
+robett;parents;galbart glover
+jeyne;parents;lady westerling
+lady westerling;children;jeyne
+dacey;parents;lady maege
+lady maege;children;dacey
+stark;siblings;bran stark
+bran stark;siblings;stark
+lothar;siblings;bran stark
+bran stark;siblings;lothar
+catelyn;siblings;bran stark
+bran stark;siblings;catelyn
+baelor targaryen;parents;daeron ii
+daeron ii;children;baelor targaryen
+deepwood motte;spouse;robett
+robett;spouse;deepwood motte
+walder;siblings;ryman
+ryman;siblings;walder
+aegon frey;parents;stevron
+stevron;children;aegon frey
+walder;children;merrett
+merrett;parents;walder
+lady walda frey;parents;merrett
+merrett;children;lady walda frey
+robert;siblings;delena
+delena;siblings;robert
+maester cressen;children;devan
+devan;parents;maester cressen
+devan;parents;king baelor
+king baelor;children;devan
+pylos;children;devan
+devan;parents;pylos
+jojen;siblings;meera
+meera;siblings;jojen
+loras;siblings;joffrey
+joffrey;siblings;loras
+lady olenna tyrell;parents;lady alerie
+lady alerie;children;lady olenna tyrell
+jon;siblings;grenn
+grenn;siblings;jon
+gunthor;parents;gurn
+gurn;children;gunthor
+sansa;spouse;tysha
+tysha;spouse;sansa
+lady cersei;spouse;robert
+robert;spouse;lady cersei
+ser osney;siblings;ser osfryd
+ser osfryd;siblings;ser osney
+ser garlan;siblings;loras tyrell
+loras tyrell;siblings;ser garlan
+hoster tully;spouse;jon arryn
+jon arryn;spouse;hoster tully
+lord tywin;siblings;ser kevan
+ser kevan;siblings;lord tywin
+wine;children;rhaego
+rhaego;parents;wine
+ser willem darry;siblings;ser jorah
+ser jorah;siblings;ser willem darry
+bolton;children;ramsay
+ramsay;parents;bolton
+mance rayder's;children;aemon steelsong
+aemon steelsong;parents;mance rayder's
+eddard stark's;children;catelyn stark's
+catelyn stark's;parents;eddard stark's
+sansa;children;myranda
+myranda;parents;sansa
+lady lysa;spouse;robert
+robert;spouse;lady lysa
+merrett;siblings;walder
+walder;siblings;merrett
+stevron;children;ser ryman
+ser ryman;parents;stevron
+kyra;spouse;ser garse goodbrook
+ser garse goodbrook;spouse;kyra
+meha;siblings;varamyr varamyr
+varamyr varamyr;siblings;meha
+stalwart shield;siblings;viserys
+viserys;siblings;stalwart shield
+artos stark;siblings;willam
+willam;siblings;artos stark
+meera;siblings;hodor
+hodor;siblings;meera
+whilst aegon targaryen;parents;rhaegar
+rhaegar;children;whilst aegon targaryen
+robert;siblings;massey
+massey;siblings;robert
+overhead aegon targaryen;parents;rhaegar
+rhaegar;children;overhead aegon targaryen
+lord wyman's;children;ser wylis
+ser wylis;parents;lord wyman's
+robett glover;siblings;galbart
+galbart;siblings;robett glover
+lady sybelle's;children;asha
+asha;parents;lady sybelle's
+tristifer botley botley;parents;hagen
+hagen;children;tristifer botley botley
+jon stark;children;wendel
+wendel;parents;jon stark
+wendel;parents;wyman manderly
+wyman manderly;children;wendel
+lady dustin;parents;rodrik ryswell's
+rodrik ryswell's;children;lady dustin
+merrett;children;frey
+frey;parents;merrett
+stark stark;children;kyra
+kyra;parents;stark stark
+eddard stark stark's;parents;stark stark's
+stark stark's;children;eddard stark stark's
+eddard stark stark's;children;reek
+reek;parents;eddard stark stark's
+princess arianne;siblings;ellaria sand
+ellaria sand;siblings;princess arianne
+obara;siblings;tyene
+tyene;siblings;obara
+theon greyjoy;siblings;ser hosteen
+ser hosteen;siblings;theon greyjoy
+galbart glover's;spouse;lady sybelle
+lady sybelle;spouse;galbart glover's
+theon;siblings;asha greyjoy
+asha greyjoy;siblings;theon
+dalla;spouse;mance rayder's
+mance rayder's;spouse;dalla
+dalla;spouse;mance rayder
+mance rayder;spouse;dalla
+norrey;parents;eddard stark
+eddard stark;children;norrey
+jaehaerys;children;aerys
+aerys;parents;jaehaerys
+toregg;parents;jon
+jon;children;toregg
+raymund;siblings;alynne
+alynne;siblings;raymund
+arthor;parents;arnolf karstark
+arnolf karstark;children;arthor
+arthor karstark;parents;arnolf karstark
+arnolf karstark;children;arthor karstark
+walter whent;siblings;ser oswell whent of the kingsguard
+ser oswell whent of the kingsguard;siblings;walter whent
+ser brus buckler;spouse;ser malegorn of redpool
+ser malegorn of redpool;spouse;ser brus buckler
+mance rayder;children;mance rayder melisandre
+mance rayder melisandre;parents;mance rayder
+rhaegar;spouse;lyanna stark
+lyanna stark;spouse;rhaegar
+leo tyrell;parents;moryn
+moryn;children;leo tyrell
+ser moryn tyrell;children;leo
+leo;parents;ser moryn tyrell
+quellon;siblings;euron
+euron;siblings;quellon
+daeron ii;spouse;myriah
+myriah;spouse;daeron ii
+robb;parents;catelyn stark
+catelyn stark;children;robb
+lady catelyn;children;arya
+arya;parents;lady catelyn
+ronnel;siblings;jon arryn
+jon arryn;siblings;ronnel
+myrcella;siblings;arianne
+arianne;siblings;myrcella
+viserys;children;rhaenyra
+rhaenyra;parents;viserys
+randyll tarly;children;dickon
+dickon;parents;randyll tarly
+lady tanda;children;lollys
+lollys;parents;lady tanda
+robert;children;jon arryn
+jon arryn;parents;robert
+aeron;siblings;euron greyjoy
+euron greyjoy;siblings;aeron
+garin;siblings;arianne
+arianne;siblings;garin
+umma;siblings;sansa
+sansa;siblings;umma
+stark;children;arya
+arya;parents;stark
+lord hunter;parents;lady anya's
+lady anya's;children;lord hunter
+woodwright;siblings;portifer
+portifer;siblings;woodwright
+joffrey baratheon;parents;robert
+robert;children;joffrey baratheon
+jaime;spouse;lady amerei
+lady amerei;spouse;jaime
+ser hyle;siblings;gillam
+gillam;siblings;ser hyle
+redwyne;children;desmera
+desmera;parents;redwyne
+catelyn stark;parents;bellonara
+bellonara;children;catelyn stark
+rhaegar;parents;aerys
+aerys;children;rhaegar
+garlan tyrell;siblings;robert
+robert;siblings;garlan tyrell
+tyene;siblings;quentyn
+quentyn;siblings;tyene
+andrey dalt;siblings;ser deziel dalt
+ser deziel dalt;siblings;andrey dalt
+ellaria sand;parents;harmen
+harmen;children;ellaria sand
+jeyne fowler;siblings;jennelyn
+jennelyn;siblings;jeyne fowler
+jasper;children;ser ronnel
+ser ronnel;parents;jasper
+lysa arryn's;children;elbert
+elbert;parents;lysa arryn's
+boy jasper;children;elbert
+elbert;parents;boy jasper
+mad king aerys;children;elbert
+elbert;parents;mad king aerys
+bracken;children;harrold
+harrold;parents;bracken
+win alla;siblings;megga
+megga;siblings;win alla
+jaime;siblings;catelyn
+catelyn;siblings;jaime
+walder frey;parents;ser ryman
+ser ryman;children;walder frey
+harwin;parents;hullen
+hullen;children;harwin
+catelyn;spouse;eddard stark
+eddard stark;spouse;catelyn
+khal moro;children;rhogoro
+rhogoro;parents;khal moro
+theon;parents;eddard stark
+eddard stark;children;theon
+jaime;siblings;robert
+robert;siblings;jaime
+jon;parents;lady stark
+lady stark;children;jon
+sansa;siblings;arya
+arya;siblings;sansa
+eddard stark;children;jon
+jon;parents;eddard stark
+eddard stark;children;catelyn
+catelyn;parents;eddard stark
+lord arryn;spouse;catelyn
+catelyn;spouse;lord arryn
+joffrey;children;prince joffrey
+prince joffrey;parents;joffrey
+jon;siblings;rickon
+rickon;siblings;jon
+rhaegar;siblings;rhaegar targaryen
+rhaegar targaryen;siblings;rhaegar
+arya stark;siblings;jon
+jon;siblings;arya stark
+jason mallister;children;patrek
+patrek;parents;jason mallister
+hoster tully;children;catelyn
+catelyn;parents;hoster tully
+ser robar;siblings;ser andar royce
+ser andar royce;siblings;ser robar
+patrek mallister;parents;jason
+jason;children;patrek mallister
+martyn rivers;parents;walder frey
+walder frey;children;martyn rivers
+sandor clegane;siblings;garlan tyrell
+garlan tyrell;siblings;sandor clegane
+sandor clegane;siblings;ser gregor gregor clegane
+ser gregor gregor clegane;siblings;sandor clegane
+ser loras;parents;mace tyrell
+mace tyrell;children;ser loras
+robert;spouse;catelyn
+catelyn;spouse;robert
+catelyn;parents;jon arryn's
+jon arryn's;children;catelyn
+robert baratheon;siblings;stannis
+stannis;siblings;robert baratheon
+lady arryn;children;jaime
+jaime;parents;lady arryn
+robert;spouse;lyanna
+lyanna;spouse;robert
+catelyn;siblings;edmure tully
+edmure tully;siblings;catelyn
+ser jorah;siblings;rhaegar
+rhaegar;siblings;ser jorah
+targaryen;siblings;rhaegar
+rhaegar;siblings;targaryen
+bran stark;spouse;lyanna
+lyanna;spouse;bran stark
+joffrey;parents;jaime lannister's
+jaime lannister's;children;joffrey
+joffrey;spouse;sansa
+sansa;spouse;joffrey
+jon;siblings;robb
+robb;siblings;jon
+sansa;parents;lady catelyn
+lady catelyn;children;sansa
+joffrey;parents;lady catelyn stark
+lady catelyn stark;children;joffrey
+eddard;siblings;torrhen
+torrhen;siblings;eddard
+robb;children;ser wendel
+ser wendel;parents;robb
+ulf;parents;umar
+umar;children;ulf
+lysa arryn;children;robert
+robert;parents;lysa arryn
+lord hoster tully;siblings;ser brynden
+ser brynden;siblings;lord hoster tully
+ronel rivers;parents;walder
+walder;children;ronel rivers
+walder;children;elmar
+elmar;parents;walder
+walder;children;robb
+robb;parents;walder
+eddard;siblings;torrhen karstark
+torrhen karstark;siblings;eddard
+dacey mormont;parents;lady maege's
+lady maege's;children;dacey mormont
+mad king aerys;children;lyanna
+lyanna;parents;mad king aerys
+sansa;parents;joffrey
+joffrey;children;sansa
+arya stark;siblings;robb
+robb;siblings;arya stark
+robb;siblings;aemon targaryen
+aemon targaryen;siblings;robb
+garlan tyrell's;siblings;robert
+robert;siblings;garlan tyrell's
