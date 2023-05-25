@@ -328,6 +328,8 @@ def parse_predicted_relationships(filename: str):
             chars_rels.append((rel_to, "children", char_key))
         elif relationship_name == "children":
             chars_rels.append((rel_to, "parents", char_key))
+        elif relationship_name == "spouse":
+            chars_rels.append((rel_to, "spouse", char_key))
 
     return chars_rels
 
@@ -426,3 +428,6 @@ def filter_top_characters(top_characters_filename: str):
 
     with open("data/gt_relationships_top25.json", "w+") as fp:
         json.dump(filtered_chars, fp)
+
+
+filter_top_characters("data/top25_characters.txt")
