@@ -103,4 +103,4 @@ def visualize(out_fig_name, triplets_path, filter_function):
     legend = [(color, color_dict[color]) for color in colors]
     plot(G, out_fig_name, **visual_style)
 
-visualize('data/graph/graph.png', 'data/graph/tp_triplets.csv', None)
+visualize('data/graph/network_tp.png', 'data/graph/tp_triplets.csv', None)
