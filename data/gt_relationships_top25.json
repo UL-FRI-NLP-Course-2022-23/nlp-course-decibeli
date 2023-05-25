@@ -217,20 +217,38 @@
         "link": "https://awoiaf.westeros.org/index.php/Margaery_Tyrell",
         "name": "Margaery Tyrell",
         "spouse": [
-            "1st: king renly baratheon",
-            "2nd: king joffrey baratheon",
-            "3rd: king tommen baratheon"
+            "renly baratheon",
+            "joffrey baratheon",
+            "tommen baratheon"
         ],
-        "father": ["lord mace tyrell"],
-        "mother": ["lady alerie hightower"],
-        "sibling": ["loras tyrell"]
+        "father": [
+            "mace tyrell"
+        ],
+        "mother": [
+            "alerie hightower"
+        ],
+        "sibling": [
+            "loras tyrell",
+            "garlan tyrell",
+            "willas tyrell"
+        ]
     },
     "robb stark": {
         "link": "https://awoiaf.westeros.org/index.php/Robb_Stark",
         "name": "Robb Stark",
-        "father": ["eddard stark"],
-        "mother": ["catelyn tully"],
-        "sibling": ["rickon stark"]
+        "father": [
+            "eddard stark"
+        ],
+        "mother": [
+            "catelyn stark"
+        ],
+        "sibling": [
+            "rickon stark",
+            "sansa stark",
+            "arya stark",
+            "bran stark",
+            "jon snow"
+        ]
     },
     "lyanna mormont": {
         "link": "https://awoiaf.westeros.org/index.php/Lyanna_Mormont",
@@ -240,8 +258,12 @@
     "euron greyjoy": {
         "link": "https://awoiaf.westeros.org/index.php/Euron_Greyjoy",
         "name": "Euron Greyjoy",
-        "father": ["lord quellon greyjoy"],
-        "mother": ["lady sunderly"],
+        "father": [
+            "quellon greyjoy"
+        ],
+        "mother": [
+            "lady sunderly (wife of quellon greyjoy)"
+        ],
         "sibling": [
             "victarion greyjoy",
             "aeron greyjoy",
@@ -250,14 +272,22 @@
             "harlon greyjoy",
             "quenton greyjoy",
             "urrigon greyjoy"
-        ]
+        ],
+        "spouse": ["falia flowers"]
     },
     "stannis baratheon": {
         "link": "https://awoiaf.westeros.org/index.php/Stannis_Baratheon",
         "name": "Stannis Baratheon",
-        "father": ["lord steffon baratheon"],
-        "mother": ["lady cassana estermont"],
-        "sibling": ["renly baratheon"]
+        "father": [
+            "steffon baratheon"
+        ],
+        "mother": [
+            "cassana estermont"
+        ],
+        "sibling": [
+            "renly baratheon"
+        ],
+        "spouse": ["selyse florent"]
     },
     "gregor clegane": {
         "link": "https://awoiaf.westeros.org/index.php/Gregor_Clegane",
@@ -269,7 +299,9 @@
     "brienne tarth": {
         "link": "https://awoiaf.westeros.org/index.php/Brienne_Tarth",
         "name": "Brienne Tarth",
-        "father": ["lord selwyn tarth"],
+        "father": [
+            "selwyn tarth"
+        ],
         "sibling": []
     },
     "sandor clegane": {
