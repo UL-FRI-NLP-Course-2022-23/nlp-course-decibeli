@@ -26,11 +26,11 @@ from tqdm import tqdm
 
 
 def pipeline(book, coreference_filename: str = None, remove_dialog=False):
+
+    book_filename = book.value["file_name"]
+    book_title = book.value["title"]
     if coreference_filename == None:
         # Coreference resolution has to be done before relationship extraction
-
-        book_filename = book.value["file_name"]
-        book_title = book.value["title"]
         # Load book txt
         book_txt = read_book(book_filename)
 
@@ -54,7 +54,7 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
             book_parts_processed.append(book_part_txt)
 
         book_txt = "CHAPTER\n".join(book_parts_processed)
-        save_processed_book(f"corref_{book_filename}", book_txt)
+        save_processed_book(f"coref_res/corref_{book_filename}", book_txt)
     else:
         # Read the content of a file that includes coreferenece resolved book
         book_txt = read_coref_book(coreference_filename)
@@ -81,8 +81,12 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
         #     print("Error occured!")
 
     # print(all_relations)
-    save_triplets(f"triplets/family_triplets_luke_{book_filename[:-4]}.csv", all_relations)
+    save_triplets(f"triplets/family_triplets_luke_{book_filename[:-4]}_new.csv", all_relations)
 
 
 if __name__ == "__main__":
-    pipeline(Book.A_DANCE_WITH_DRAGONS, remove_dialog=True)
+    pipeline(Book.A_GAME_OF_THRONES, coreference_filename="corref_lg_brez_narek.txt", remove_dialog=True)
+    # pipeline(Book.A_CLASH_OF_KINGS, coreference_filename=None, remove_dialog=True)
+    # pipeline(Book.A_STORM_OF_SWORDS, coreference_filename=None, remove_dialog=True)
+    # pipeline(Book.A_FEAST_FOR_CROWS, coreference_filename=None, remove_dialog=True)
+    # pipeline(Book.A_DANCE_WITH_DRAGONS, coreference_filename=None, remove_dialog=True)
