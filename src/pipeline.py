@@ -68,20 +68,22 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
     print(len(sentences))
 
     all_relations = []
-    fre = LukeExtractor(
-        "/mnt/d/Faks/Magisterij/NATURAL LANGUAGE PROCESSING/nlp-course-decibeli/src/FRE/family_relations_words.csv"
-    )
+    # fre = LukeExtractor(
+    #     "/mnt/d/Faks/Magisterij/NATURAL LANGUAGE PROCESSING/nlp-course-decibeli/src/FRE/family_relations_words.csv"
+    # )
+    fre = CoreNLPExtractor()
     for sentence in tqdm(sentences):
-        triplets = fre.get_family_relations_triplets(sentence)
-        all_relations.extend(triplets)
-        # try:
-        #     triplets = fre.get_family_relations_triplets(sentence)
-        #     all_relations.extend(triplets)
-        # except:
-        #     print("Error occured!")
+        # triplets = fre.get_family_relations_triplets(sentence)
+        # all_relations.extend(triplets)
+        try:
+            triplets = fre.get_family_relations_triplets(sentence)
+            all_relations.extend(triplets)
+        except Exception as e:
+            print("Error occured!")
+            print(e)
 
     # print(all_relations)
-    save_triplets(f"triplets/family_triplets_luke_{book_filename[:-4]}_new.csv", all_relations)
+    save_triplets(f"triplets/family_triplets_coreNLP_{book_filename[:-4]}.csv", all_relations)
 
 
 if __name__ == "__main__":

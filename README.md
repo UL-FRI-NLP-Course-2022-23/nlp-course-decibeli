@@ -22,3 +22,7 @@ Group public acronym/name: `83a8x2ru5235qlm9`
 3. pip install -r requirements.txt
 4. <em>(pip install allennlp==2.9.3 allennlp-models==2.9.3 cached-path==1.1.2) &#8594; OPCIJSKO: glede na to, da allennlp itak ne dela</em>
 5. python -m spacy download en_core_web_sm
+
+## CoreNLP Server
+To get family relations triplets using CoreNLP you need first to download CoreNLP from [Download page]{https://stanfordnlp.github.io/CoreNLP/download.html}.
+Then open the `cmd` in the directory where you downloaded the CoreNLP and run `java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000`.

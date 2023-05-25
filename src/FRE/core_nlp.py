@@ -8,7 +8,7 @@ class CoreNLPExtractor(FamilyRelationExtractor):
     # TODO: add some arguments for different annotators
     def __init__(
         self,
-        server_url='http://172.28.0.1:9000/?properties={"annotators":"tokenize,ssplit,kbp","outputFormat":"json"}',
+        server_url='http://172.24.96.1:9000/?properties={"annotators":"tokenize,ssplit,kbp","outputFormat":"json"}',
     ) -> None:
         super().__init__()
         self.server_url = server_url
