@@ -162,14 +162,30 @@ def ground_truth_relations_num(filename: str):
 
 if __name__ == "__main__":
     gt = read_json("data/gt_relationships_top25.json")
+
     predicted_book1 = parse_predicted_relationships(
         "data/triplets/family_triplets_luke_got1.csv"
+    )
+    predicted_book2 = parse_predicted_relationships(
+        "data/triplets/family_triplets_luke_got2.csv"
+    )
+    predicted_book3 = parse_predicted_relationships(
+        "data/triplets/family_triplets_luke_got3.csv"
+    )
+    predicted_book4 = parse_predicted_relationships(
+        "data/triplets/family_triplets_luke_got4.csv"
     )
     predicted_book5 = parse_predicted_relationships(
         "data/triplets/family_triplets_luke_got5.csv"
     )
 
-    predicted = predicted_book1 + predicted_book1
+    predicted = (
+        predicted_book1
+        + predicted_book2
+        + predicted_book3
+        + predicted_book4
+        + predicted_book5
+    )
     # Remove duplicates
     predicted = list(dict.fromkeys(predicted))
 
