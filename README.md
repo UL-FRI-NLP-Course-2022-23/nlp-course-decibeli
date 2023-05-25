@@ -24,7 +24,7 @@ Group public acronym/name: `83a8x2ru5235qlm9`
 5. python -m spacy download en_core_web_sm
 
 ## CoreNLP Server
-To get family relations triplets using CoreNLP you need first to download CoreNLP from [Download page]{https://stanfordnlp.github.io/CoreNLP/download.html}.
+To get family relations triplets using CoreNLP you need first to download CoreNLP from [Download page](https://stanfordnlp.github.io/CoreNLP/download.html).
 Then open the `cmd` in the directory where you downloaded the CoreNLP and run `java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000`.
 After that you need to modify the `server_url` in `core_nlp.py` file to the IP value of the host where the server runs.
 
