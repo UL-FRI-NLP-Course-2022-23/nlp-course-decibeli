@@ -318,7 +318,11 @@ def parse_predicted_relationships(filename: str):
         if "his" in char_key or "her" in char_key:
             continue
 
-        relationship_name = row[1].split(":")[1].lower()
+        if len(row[1].split(":")) > 1:
+            relationship_name = row[1].split(":")[1].lower()
+        else:
+            relationship_name = row[1].lower()
+
         rel_to = row[2].lower()
 
         chars_rels.append((char_key, relationship_name, rel_to))
@@ -332,6 +336,9 @@ def parse_predicted_relationships(filename: str):
             chars_rels.append((rel_to, "spouse", char_key))
         elif relationship_name == "siblings":
             chars_rels.append((rel_to, "siblings", char_key))
+
+    # Unique
+    chars_rels = list(dict.fromkeys(chars_rels))
 
     return chars_rels
 
@@ -430,6 +437,3 @@ def filter_top_characters(top_characters_filename: str):
 
     with open("data/gt_relationships_top25.json", "w+") as fp:
         json.dump(filtered_chars, fp)
-
-
-filter_top_characters("data/top25_characters.txt")
