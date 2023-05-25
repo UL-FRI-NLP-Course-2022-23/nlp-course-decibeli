@@ -137,17 +137,18 @@
         "link": "https://awoiaf.westeros.org/index.php/Jon_Snow",
         "name": "Jon Snow",
         "father": [
-            "lord eddard stark"
+            "eddard stark"
         ],
         "mother": [
-            "wylla (supposedly)",
-            "ashara dayne (rumored)",
-            "fisherman's daughter (rumored)"
+            "wylla",
+            "ashara dayne",
+            "fisherman's daughter"
         ],
         "sibling": [
             "sansa stark",
             "arya stark",
-            "bran stark"
+            "bran stark",
+            "robb stark"
         ]
     },
     "robert i baratheon": {

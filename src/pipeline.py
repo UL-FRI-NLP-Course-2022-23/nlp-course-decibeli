@@ -85,8 +85,8 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
 
 
 if __name__ == "__main__":
-    pipeline(Book.A_GAME_OF_THRONES, coreference_filename="corref_lg_brez_narek.txt", remove_dialog=True)
-    # pipeline(Book.A_CLASH_OF_KINGS, coreference_filename=None, remove_dialog=True)
-    # pipeline(Book.A_STORM_OF_SWORDS, coreference_filename=None, remove_dialog=True)
-    # pipeline(Book.A_FEAST_FOR_CROWS, coreference_filename=None, remove_dialog=True)
-    # pipeline(Book.A_DANCE_WITH_DRAGONS, coreference_filename=None, remove_dialog=True)
+    pipeline(Book.A_GAME_OF_THRONES, coreference_filename=f"z_narek/corref_{Book.A_GAME_OF_THRONES.value['file_name']}", remove_dialog=True)
+    pipeline(Book.A_CLASH_OF_KINGS, coreference_filename=f"z_narek/corref_{Book.A_CLASH_OF_KINGS.value['file_name']}", remove_dialog=True)
+    pipeline(Book.A_STORM_OF_SWORDS, coreference_filename=f"z_narek/corref_{Book.A_STORM_OF_SWORDS.value['file_name']}", remove_dialog=True)
+    pipeline(Book.A_FEAST_FOR_CROWS, coreference_filename=f"z_narek/corref_{Book.A_FEAST_FOR_CROWS.value['file_name']}", remove_dialog=True)
+    pipeline(Book.A_DANCE_WITH_DRAGONS, coreference_filename=f"z_narek/corref_{Book.A_DANCE_WITH_DRAGONS.value['file_name']}", remove_dialog=True)
