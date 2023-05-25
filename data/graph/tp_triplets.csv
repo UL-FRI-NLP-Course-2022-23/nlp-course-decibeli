@@ -1,38 +1,83 @@
-joffrey baratheon;parents;robert i baratheon
-robert i baratheon;children;joffrey baratheon
+robert i baratheon;siblings;renly baratheon
 robb stark;siblings;jon snow
 jon snow;siblings;robb stark
+stannis baratheon;siblings;renly baratheon
+margaery tyrell;parents;mace tyrell
 brienne tarth;parents;selwyn tarth
-joffrey baratheon;parents;jaime lannister
-jaime lannister;children;joffrey baratheon
+daenerys targaryen;siblings;rhaegar targaryen
+arya stark;siblings;bran stark
+bran stark;siblings;arya stark
+bran stark;siblings;jon snow
+jon snow;siblings;bran stark
+robert i baratheon;siblings;stannis bartheon
+bran stark;siblings;rickon stark
+robert i baratheon;siblings;renly baratheon
+arya stark;siblings;sansa stark
+sansa stark;siblings;arya stark
 robb stark;siblings;sansa stark
 sansa stark;siblings;robb stark
-tyrion lannister;siblings;jaime lannister
-jaime lannister;siblings;tyrion lannister
+margaery tyrell;siblings;garlan tyrell
+bran stark;parents;eddard stark
 joffrey baratheon;spouse;margaery tyrell
 margaery tyrell;spouse;joffrey baratheon
+margaery tyrell;siblings;loras tyrell
 jon snow;siblings;arya stark
 arya stark;siblings;jon snow
+joffrey baratheon;spouse;margaery tyrell
+margaery tyrell;spouse;joffrey baratheon
+sansa stark;spouse;tyrion lannister
+tyrion lannister;spouse;sansa stark
 robb stark;siblings;arya stark
 arya stark;siblings;robb stark
 joffrey baratheon;siblings;tommen baratheon
+gregor clegane;siblings;sandor clegane
+sandor clegane;siblings;gregor clegane
+tyrion lannister;spouse;sansa stark
+sansa stark;spouse;tyrion lannister
+tyrion lannister;parents;tywin lannister
+tywin lannister;children;tyrion lannister
+tyrion lannister;siblings;cersei lannister
+cersei lannister;siblings;tyrion lannister
+tyrion lannister;spouse;tysha
+margaery tyrell;spouse;tommen baratheon
+tyrion lannister;siblings;jaime lannister
+jaime lannister;siblings;tyrion lannister
+tywin lannister;children;tyrion lannister
+tyrion lannister;parents;tywin lannister
 arya stark;parents;eddard stark
-bran stark;siblings;sansa stark
-euron greyjoy;siblings;aeron greyjoy
-arya stark;parents;eddard stark
+daenerys targaryen;siblings;rhaegar targaryen
+eddard stark;parents;rickard stark
+margaery tyrell;spouse;tommen baratheon
+margaery tyrell;siblings;loras tyrell
+jaime lannister;parents;tywin lannister
+tywin lannister;children;jaime lannister
 joffrey baratheon;parents;robert i baratheon
 robert i baratheon;children;joffrey baratheon
+bran stark;siblings;jon snow
+jon snow;siblings;bran stark
 eddard stark;spouse;catelyn tully
-sansa stark;siblings;arya stark
-arya stark;siblings;sansa stark
+eddard stark;parents;rickard stark
 jon snow;parents;eddard stark
+jaime lannister;siblings;tyrion lannister
+tyrion lannister;siblings;jaime lannister
+bran stark;siblings;robb stark
+robb stark;siblings;bran stark
 jon snow;siblings;rickon stark
 arya stark;siblings;jon snow
 jon snow;siblings;arya stark
-daenerys targaryen;siblings;rhaegar targaryen
-joffrey baratheon;parents;jaime lannister
-jaime lannister;children;joffrey baratheon
-jon snow;siblings;robb stark
 robb stark;siblings;jon snow
+jon snow;siblings;robb stark
+robb stark;siblings;bran stark
+bran stark;siblings;robb stark
+arya stark;parents;eddard stark
+margaery tyrell;siblings;garlan tyrell
+daenerys targaryen;siblings;viserys targaryen
+joffrey baratheon;parents;robert i baratheon
+robert i baratheon;children;joffrey baratheon
+tywin lannister;children;jaime lannister
+jaime lannister;parents;tywin lannister
+daenerys targaryen;children;rhaego
+margaery tyrell;spouse;renly baratheon
 arya stark;siblings;robb stark
 robb stark;siblings;arya stark
+eddard stark;siblings;benjen stark
