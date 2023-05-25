@@ -148,7 +148,8 @@
             "sansa stark",
             "arya stark",
             "bran stark",
-            "robb stark"
+            "robb stark",
+            "rickon stark"
         ]
     },
     "robert i baratheon": {
@@ -160,13 +161,17 @@
         "mother": [
             "cassana estermont"
         ],
-        "sibling": []
+        "spouse": [
+            "cersei lannister"
+        ],
+        "sibling": ["stannis bartheon", "renly baratheon"],
+        "children": ["joffrey baratheon", "tommen baratheon", "myrcella baratheon", "mya stone", "bella", "Gendry", "edric storm", "barra"]
     },
     "tywin lannister": {
         "link": "https://awoiaf.westeros.org/index.php/Tywin_Lannister",
         "name": "Tywin Lannister",
         "spouse": [
-            "lady joanna lannister"
+            "joanna lannister"
         ],
         "father": [
             "tytos lannister"
@@ -177,20 +182,26 @@
         "sibling": [
             "genna lannister",
             "gerion lannister",
-            "tygett lannister"
+            "tygett lannister",
+            "kevan lannister"
+        ],
+        "children": [
+            "tyrion lannister",
+            "jaime lannister",
+            "cersei lannister"
         ]
     },
     "petyr baelish": {
         "link": "https://awoiaf.westeros.org/index.php/Petyr_Baelish",
         "name": "Petyr Baelish",
         "spouse": [
-            "lady lysa arryn"
+            "lysa arryn"
         ],
         "father": [
-            "lord baelish"
+            "baelish (lord)"
         ],
         "mother": [
-            "alayne"
+            "alayne baelish"
         ],
         "sibling": []
     },
@@ -198,28 +209,33 @@
         "link": "https://awoiaf.westeros.org/index.php/Theon_Greyjoy",
         "name": "Theon Greyjoy",
         "father": [
-            "lord balon greyjoy"
+            "balon greyjoy"
         ],
         "mother": [
-            "lady alannys harlaw"
+            "alannys harlaw"
         ],
         "sibling": [
-            "asha greyjoy"
+            "asha greyjoy",
+            "rodrik greyjoy",
+            "maron greyjoy"
         ]
     },
     "eddard stark": {
         "link": "https://awoiaf.westeros.org/index.php/Eddard_Stark",
         "name": "Eddard Stark",
         "spouse": [
-            "lady catelyn tully"
+            "catelyn tully"
         ],
         "father": [
-            "lord rickard stark"
+            "rickard stark"
         ],
         "mother": [
-            "lady lyarra stark"
+            "lyarra stark"
         ],
-        "sibling": []
+        "sibling": [
+            "brandon stark", 
+            "lyanna stark",
+            "benjen stark"]
     },
     "margaery tyrell": {
         "link": "https://awoiaf.westeros.org/index.php/Margaery_Tyrell",
