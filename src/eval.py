@@ -41,6 +41,7 @@ def eval_relationship_extraction(gt_haracter_data, predicted_character_data):
     skips = 0
 
     tp_triplets = []
+    fp_triplets = []
 
     for predicted_char, rel_name, rel_to in predicted_character_data:
         predicted_char = re.sub(r"'s\b", "", predicted_char)
@@ -65,9 +66,10 @@ def eval_relationship_extraction(gt_haracter_data, predicted_character_data):
         #     print(f"{predicted_char};{rel_name};{rel_to}")
         #     continue
 
+        char_key = closest_match(gt_haracter_data, predicted_char)
+
         if rel_name == "spouse" or rel_name == "parents":
             all += 1
-            char_key = closest_match(gt_haracter_data, predicted_char)
 
             if rel_name == "spouse" and char_key is not None:
                 if "spouse" in gt_haracter_data[char_key]:
@@ -100,7 +102,6 @@ def eval_relationship_extraction(gt_haracter_data, predicted_character_data):
 
         if rel_name == "siblings":
             all += 1
-            char_key = closest_match(gt_haracter_data, predicted_char)
             if char_key is not None and char_key in gt_haracter_data:
                 if "sibling" in gt_haracter_data[char_key]:
                     in_arr, rel_key = substring_in_array(
@@ -113,7 +114,6 @@ def eval_relationship_extraction(gt_haracter_data, predicted_character_data):
 
         if rel_name == "children":
             all += 1
-            char_key = closest_match(gt_haracter_data, predicted_char)
             if char_key is not None and char_key in gt_haracter_data:
                 if "children" in gt_haracter_data[char_key]:
                     in_arr, rel_key = substring_in_array(
