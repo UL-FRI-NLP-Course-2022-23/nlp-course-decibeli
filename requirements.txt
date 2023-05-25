@@ -7,3 +7,5 @@ spacy==2.1.0
 stanza==1.5.0
 tqdm==4.61.0
 undetected_chromedriver==3.4.6
+python-igraph=0.10.4
+cairocffi=1.5.1
