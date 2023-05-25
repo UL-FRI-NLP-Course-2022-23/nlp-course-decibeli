@@ -344,7 +344,7 @@ def parse_predicted_relationships(filename: str):
 
 
 def substring_in_array(s: str, arr: List[str]) -> bool:
-    """Finds if string s is a substring of any of the strings in arr
+    """Ne dela tega kt piše, sam ni cajta popravlat dokumentacije!!!Finds if string s is a substring of any of the strings in arr
 
     Args:
         s (str): string for which we need to check if it is contained as a substring in array
@@ -355,9 +355,9 @@ def substring_in_array(s: str, arr: List[str]) -> bool:
     """
     for check_str in arr:
         if s in check_str:
-            return True
+            return True, check_str
 
-    return False
+    return False, None
 
 
 def add_child_sibling_relationships():
