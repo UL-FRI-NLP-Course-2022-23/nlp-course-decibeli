@@ -162,7 +162,7 @@ def ground_truth_relations_num(gt):
 
 if __name__ == "__main__":
     # ONLY CHANGE THIS
-    PREDICTIONS_FILENAME = "data/triplets/z_narek/family_triplets_luke_all.csv"
+    PREDICTIONS_FILENAME = "data/triplets/coreNLP/family_triplets_coreNLP_all.csv"
     # ----------------
 
     gt = read_json("data/gt_relationships_top25.json")

@@ -25,7 +25,17 @@ from coreference_resolution.neuralc import NeuralC
 from tqdm import tqdm
 
 
-def pipeline(book, coreference_filename: str = None, remove_dialog=False):
+def pipeline(book, fre_type="luke", ner=None, coreference_filename: str = None, remove_dialog=False):
+    """
+    :param book -> one of the defined books in Enum class in util.py file
+    :param fre_type -> string value of the Family extractor you want to use: either luke or coreNLP
+    :param ner -> string value of NER you want to use in case of LUKE Family extractor: either spacy, nltk or stanza
+    :param coreference_filename -> string value of filename in data/coref_res/ which is result of the coreference resolution step of the pipeline. 
+    If provided it skips the preprocessing and coreference resolution step
+    :param remove_dialog -> bool value for determining whether double quotes should be removed from the text or not.
+
+    :return -> void, it saves the triplets in data/triplets directory 
+    """
 
     book_filename = book.value["file_name"]
     book_title = book.value["title"]
@@ -58,8 +68,6 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
     else:
         # Read the content of a file that includes coreferenece resolved book
         book_txt = read_coref_book(coreference_filename)
-
-    # TODO: Named Entity Recognition (is it even needed if we use CoreNLP for relation extraction? - maybe for some improvements?)
     
     # Relation extraction between entities
     # book_txt = read_book('corref_got1_1.txt')
@@ -68,13 +76,18 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
     print(len(sentences))
 
     all_relations = []
-    # fre = LukeExtractor(
-    #     "/mnt/d/Faks/Magisterij/NATURAL LANGUAGE PROCESSING/nlp-course-decibeli/src/FRE/family_relations_words.csv"
-    # )
-    fre = CoreNLPExtractor()
+
+    fre = None
+    if fre_type == "luke":
+        fre = LukeExtractor(
+            "/mnt/d/Faks/Magisterij/NATURAL LANGUAGE PROCESSING/nlp-course-decibeli/src/FRE/family_relations_words.csv", ner=ner
+    )
+    elif fre_type == "coreNLP":
+        fre = CoreNLPExtractor()
+    else:
+        raise Exception(f'Family extractor "{fre_type}" is not implemented!')
+    
     for sentence in tqdm(sentences):
-        # triplets = fre.get_family_relations_triplets(sentence)
-        # all_relations.extend(triplets)
         try:
             triplets = fre.get_family_relations_triplets(sentence)
             all_relations.extend(triplets)
@@ -83,12 +96,12 @@ def pipeline(book, coreference_filename: str = None, remove_dialog=False):
             print(e)
 
     # print(all_relations)
-    save_triplets(f"triplets/family_triplets_coreNLP_{book_filename[:-4]}.csv", all_relations)
+    save_triplets(f"triplets/family_triplets_{fre_type}_{book_filename[:-4]}.csv", all_relations)
 
 
 if __name__ == "__main__":
-    pipeline(Book.A_GAME_OF_THRONES, coreference_filename=f"z_narek/corref_{Book.A_GAME_OF_THRONES.value['file_name']}", remove_dialog=True)
-    pipeline(Book.A_CLASH_OF_KINGS, coreference_filename=f"z_narek/corref_{Book.A_CLASH_OF_KINGS.value['file_name']}", remove_dialog=True)
-    pipeline(Book.A_STORM_OF_SWORDS, coreference_filename=f"z_narek/corref_{Book.A_STORM_OF_SWORDS.value['file_name']}", remove_dialog=True)
-    pipeline(Book.A_FEAST_FOR_CROWS, coreference_filename=f"z_narek/corref_{Book.A_FEAST_FOR_CROWS.value['file_name']}", remove_dialog=True)
-    pipeline(Book.A_DANCE_WITH_DRAGONS, coreference_filename=f"z_narek/corref_{Book.A_DANCE_WITH_DRAGONS.value['file_name']}", remove_dialog=True)
+    pipeline(Book.A_GAME_OF_THRONES, coreference_filename=f"z_narek/corref_{Book.A_GAME_OF_THRONES.value['file_name']}")
+    pipeline(Book.A_CLASH_OF_KINGS, coreference_filename=f"z_narek/corref_{Book.A_CLASH_OF_KINGS.value['file_name']}")
+    pipeline(Book.A_STORM_OF_SWORDS, coreference_filename=f"z_narek/corref_{Book.A_STORM_OF_SWORDS.value['file_name']}")
+    pipeline(Book.A_FEAST_FOR_CROWS, coreference_filename=f"z_narek/corref_{Book.A_FEAST_FOR_CROWS.value['file_name']}")
+    pipeline(Book.A_DANCE_WITH_DRAGONS, coreference_filename=f"z_narek/corref_{Book.A_DANCE_WITH_DRAGONS.value['file_name']}")
