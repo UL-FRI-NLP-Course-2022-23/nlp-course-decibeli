@@ -2,7 +2,7 @@
 
 This repository contains source code and [article](/article/Literacy_situation_models_knowledge_base_creation.pdf) for a group project created as part of Natural Language Processing course at the Faculty of Computer and Information Science at the University of Ljubljana.
 
-## Repository strcture
+## Repository structure
 
 -   `article` contains article.
 -   `data` contains data used for implementation and testing.
@@ -26,3 +26,9 @@ Group public acronym/name: `83a8x2ru5235qlm9`
 ## CoreNLP Server
 To get family relations triplets using CoreNLP you need first to download CoreNLP from [Download page]{https://stanfordnlp.github.io/CoreNLP/download.html}.
 Then open the `cmd` in the directory where you downloaded the CoreNLP and run `java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000`.
+After that you need to modify the `server_url` in `core_nlp.py` file to the IP value of the host where the server runs.
+
+## Usage
+To reproduce the results we obtained in this repository you should run `pipeline.py`. This will generate the family relation triplets and save it in a file.
+To evaluate the results you should run `eval.py` where you should change the path to file with the triplet results.
+To visualize the graph of family relations you should run `visualization.py`.
