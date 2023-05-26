@@ -101,7 +101,7 @@ class LukeExtractor(FamilyRelationExtractor):
 
         return ixs
 
-    def __init__(self, relationship_words_filename: str, ner="nltk"):
+    def __init__(self, ner="nltk"):
         super().__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(
             "studio-ousia/luke-large-finetuned-tacred"
@@ -119,6 +119,7 @@ class LukeExtractor(FamilyRelationExtractor):
         else:
             raise Exception(f'Named Entity Recognizer "{ner}" not implemented')
 
+        relationship_words_filename = "./src/FRE/family_relations_words.csv"
         with open(relationship_words_filename) as fp:
             self.relationship_stop_words = [line.rstrip()[:-1] for line in fp]
         # self.relationship_stop_words = [
@@ -134,9 +135,12 @@ class LukeExtractor(FamilyRelationExtractor):
         # ]
 
 
-# # text = "John Snow is the son of Aegon Targaryen."
-# # fre = LukeExtractor()
-# # print(fre.get_family_relations_triplets(text, ["John Snow", "Aegon Targaryen"]))
+# text = "John Snow is the son of Aegon Targaryen."
+# import os
+
+# print(os.getcwd())
+# fre = LukeExtractor("sasdas")
+# print(fre.get_family_relations_triplets(text, ["John Snow", "Aegon Targaryen"]))
 # with open("./src/FRE/family_relations_words.csv") as fp:
 #     a = [line.rstrip()[:-1] for line in fp]
 
